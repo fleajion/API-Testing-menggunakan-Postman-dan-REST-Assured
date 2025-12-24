@@ -1,0 +1,2979 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="143.336" tests="37" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="24"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="F:\zidanyb-pratikum-pengujian-perangkat-lunak\REST Assured Testing\target\test-classes;F:\zidanyb-pratikum-pengujian-perangkat-lunak\REST Assured Testing\target\classes;C:\Users\zidan\.m2\repository\io\rest-assured\rest-assured\5.3.0\rest-assured-5.3.0.jar;C:\Users\zidan\.m2\repository\org\apache\groovy\groovy\4.0.6\groovy-4.0.6.jar;C:\Users\zidan\.m2\repository\org\apache\groovy\groovy-xml\4.0.6\groovy-xml-4.0.6.jar;C:\Users\zidan\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\zidan\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\zidan\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\zidan\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\zidan\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\zidan\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\zidan\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\zidan\.m2\repository\io\rest-assured\json-path\5.3.0\json-path-5.3.0.jar;C:\Users\zidan\.m2\repository\org\apache\groovy\groovy-json\4.0.6\groovy-json-4.0.6.jar;C:\Users\zidan\.m2\repository\io\rest-assured\rest-assured-common\5.3.0\rest-assured-common-5.3.0.jar;C:\Users\zidan\.m2\repository\io\rest-assured\xml-path\5.3.0\xml-path-5.3.0.jar;C:\Users\zidan\.m2\repository\io\rest-assured\json-schema-validator\5.3.0\json-schema-validator-5.3.0.jar;C:\Users\zidan\.m2\repository\com\github\java-json-tools\json-schema-validator\2.2.14\json-schema-validator-2.2.14.jar;C:\Users\zidan\.m2\repository\com\google\guava\guava\28.2-android\guava-28.2-android.jar;C:\Users\zidan\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\zidan\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\zidan\.m2\repository\org\checkerframework\checker-compat-qual\2.5.5\checker-compat-qual-2.5.5.jar;C:\Users\zidan\.m2\repository\com\google\errorprone\error_prone_annotations\2.3.4\error_prone_annotations-2.3.4.jar;C:\Users\zidan\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\zidan\.m2\repository\com\github\java-json-tools\jackson-coreutils-equivalence\1.0\jackson-coreutils-equivalence-1.0.jar;C:\Users\zidan\.m2\repository\com\github\java-json-tools\jackson-coreutils\2.0\jackson-coreutils-2.0.jar;C:\Users\zidan\.m2\repository\com\github\java-json-tools\msg-simple\1.2\msg-simple-1.2.jar;C:\Users\zidan\.m2\repository\com\github\java-json-tools\btf\1.3\btf-1.3.jar;C:\Users\zidan\.m2\repository\com\github\java-json-tools\json-schema-core\1.2.14\json-schema-core-1.2.14.jar;C:\Users\zidan\.m2\repository\com\github\java-json-tools\uri-template\0.10\uri-template-0.10.jar;C:\Users\zidan\.m2\repository\org\mozilla\rhino\1.7.7.2\rhino-1.7.7.2.jar;C:\Users\zidan\.m2\repository\com\sun\mail\mailapi\1.6.2\mailapi-1.6.2.jar;C:\Users\zidan\.m2\repository\joda-time\joda-time\2.10.5\joda-time-2.10.5.jar;C:\Users\zidan\.m2\repository\com\googlecode\libphonenumber\libphonenumber\8.11.1\libphonenumber-8.11.1.jar;C:\Users\zidan\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\zidan\.m2\repository\net\sf\jopt-simple\jopt-simple\5.0.4\jopt-simple-5.0.4.jar;C:\Users\zidan\.m2\repository\org\testng\testng\7.8.0\testng-7.8.0.jar;C:\Users\zidan\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\zidan\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\zidan\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;C:\Users\zidan\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.15.2\jackson-databind-2.15.2.jar;C:\Users\zidan\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.15.2\jackson-annotations-2.15.2.jar;C:\Users\zidan\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.15.2\jackson-core-2.15.2.jar;C:\Users\zidan\.m2\repository\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar;C:\Users\zidan\.m2\repository\org\apache\commons\commons-lang3\3.5\commons-lang3-3.5.jar;C:\Users\zidan\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23-android.jar;C:\Users\zidan\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\zidan\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;C:\Users\zidan\.m2\repository\org\slf4j\slf4j-simple\1.7.36\slf4j-simple-1.7.36.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Bangkok"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="24"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="F:\JDK 24\bin"/>
+    <property name="sun.java.command" value="C:\Users\zidan\AppData\Local\Temp\surefire3632144702080721150\surefirebooter-20251224235100010_3.jar C:\Users\zidan\AppData\Local\Temp\surefire3632144702080721150 2025-12-24T23-50-57_353-jvmRun1 surefire-20251224235100010_1tmp surefire_0-20251224235100010_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="F:\zidanyb-pratikum-pengujian-perangkat-lunak\REST Assured Testing\target\test-classes;F:\zidanyb-pratikum-pengujian-perangkat-lunak\REST Assured Testing\target\classes;C:\Users\zidan\.m2\repository\io\rest-assured\rest-assured\5.3.0\rest-assured-5.3.0.jar;C:\Users\zidan\.m2\repository\org\apache\groovy\groovy\4.0.6\groovy-4.0.6.jar;C:\Users\zidan\.m2\repository\org\apache\groovy\groovy-xml\4.0.6\groovy-xml-4.0.6.jar;C:\Users\zidan\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\zidan\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\zidan\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\zidan\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\zidan\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\zidan\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\zidan\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\zidan\.m2\repository\io\rest-assured\json-path\5.3.0\json-path-5.3.0.jar;C:\Users\zidan\.m2\repository\org\apache\groovy\groovy-json\4.0.6\groovy-json-4.0.6.jar;C:\Users\zidan\.m2\repository\io\rest-assured\rest-assured-common\5.3.0\rest-assured-common-5.3.0.jar;C:\Users\zidan\.m2\repository\io\rest-assured\xml-path\5.3.0\xml-path-5.3.0.jar;C:\Users\zidan\.m2\repository\io\rest-assured\json-schema-validator\5.3.0\json-schema-validator-5.3.0.jar;C:\Users\zidan\.m2\repository\com\github\java-json-tools\json-schema-validator\2.2.14\json-schema-validator-2.2.14.jar;C:\Users\zidan\.m2\repository\com\google\guava\guava\28.2-android\guava-28.2-android.jar;C:\Users\zidan\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\zidan\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\zidan\.m2\repository\org\checkerframework\checker-compat-qual\2.5.5\checker-compat-qual-2.5.5.jar;C:\Users\zidan\.m2\repository\com\google\errorprone\error_prone_annotations\2.3.4\error_prone_annotations-2.3.4.jar;C:\Users\zidan\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\zidan\.m2\repository\com\github\java-json-tools\jackson-coreutils-equivalence\1.0\jackson-coreutils-equivalence-1.0.jar;C:\Users\zidan\.m2\repository\com\github\java-json-tools\jackson-coreutils\2.0\jackson-coreutils-2.0.jar;C:\Users\zidan\.m2\repository\com\github\java-json-tools\msg-simple\1.2\msg-simple-1.2.jar;C:\Users\zidan\.m2\repository\com\github\java-json-tools\btf\1.3\btf-1.3.jar;C:\Users\zidan\.m2\repository\com\github\java-json-tools\json-schema-core\1.2.14\json-schema-core-1.2.14.jar;C:\Users\zidan\.m2\repository\com\github\java-json-tools\uri-template\0.10\uri-template-0.10.jar;C:\Users\zidan\.m2\repository\org\mozilla\rhino\1.7.7.2\rhino-1.7.7.2.jar;C:\Users\zidan\.m2\repository\com\sun\mail\mailapi\1.6.2\mailapi-1.6.2.jar;C:\Users\zidan\.m2\repository\joda-time\joda-time\2.10.5\joda-time-2.10.5.jar;C:\Users\zidan\.m2\repository\com\googlecode\libphonenumber\libphonenumber\8.11.1\libphonenumber-8.11.1.jar;C:\Users\zidan\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\zidan\.m2\repository\net\sf\jopt-simple\jopt-simple\5.0.4\jopt-simple-5.0.4.jar;C:\Users\zidan\.m2\repository\org\testng\testng\7.8.0\testng-7.8.0.jar;C:\Users\zidan\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\zidan\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\zidan\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;C:\Users\zidan\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.15.2\jackson-databind-2.15.2.jar;C:\Users\zidan\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.15.2\jackson-annotations-2.15.2.jar;C:\Users\zidan\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.15.2\jackson-core-2.15.2.jar;C:\Users\zidan\.m2\repository\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar;C:\Users\zidan\.m2\repository\org\apache\commons\commons-lang3\3.5\commons-lang3-3.5.jar;C:\Users\zidan\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23-android.jar;C:\Users\zidan\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\zidan\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;C:\Users\zidan\.m2\repository\org\slf4j\slf4j-simple\1.7.36\slf4j-simple-1.7.36.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\zidan"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2025-07-15"/>
+    <property name="java.home" value="F:\JDK 24"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="F:\zidanyb-pratikum-pengujian-perangkat-lunak\REST Assured Testing"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\zidan\AppData\Local\Temp\surefire3632144702080721150\surefirebooter-20251224235100010_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="24.0.2+12-54"/>
+    <property name="user.name" value="zidan"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\zidan\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\zidan\AppData\Local\Temp\"/>
+    <property name="java.version" value="24.0.2"/>
+    <property name="user.dir" value="F:\zidanyb-pratikum-pengujian-perangkat-lunak\REST Assured Testing"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="F:\JDK 24\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;F:\ImageMagick\ImageMagick-7.1.2-Q16-HDRI;$($env:PATH);C:\Users\zidan\AppData\Local\Microsoft\WindowsApps;C:\Program Files\WireGuard\;C:\Program Files\PuTTY\;C:\Program Files\Cloudflare\Cloudflare WARP\;C:\Users\zidan\scoop\shims;C:\Program Files\Volta\;C:\Program Files\Eclipse Adoptium\jdk-21.0.8.9-hotspot\bin;F:\python 3.13\;F:\python 3.13\Scripts\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;F:\python3.8\Scripts\;F:\python3.8\;F:\VMware\bin\;F:\python 3.9\Scripts\;F:\python 3.9\;F:\python 3.10\Scripts\;F:\python 3.10\;F:\python 3.11\Scripts\;F:\python 3.11\;F:\python 3.12\Scripts\;F:\python 3.12\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA App\NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;F:\Winscp\WinSCP\;C:\ProgramData\chocolatey\bin;F:\Node JS\;C:\Program Files\Tailscale\;C:\Program Files\dotnet\;C:\Program Files\Git\cmd;C:\Program Files\maven-mvnd-1.0.2\bin;F:\apache-maven-3.9.11\bin;F:\JDK 24\bin;F:\apache-maven-3.9.11\bin;C:\Program Files\apache-maven-3.9.11\bin;F:\JDK 24\bin;C:\Program Files\Docker\Docker\resources\bin;F;C:\Program Files\steghide;F:\Visual Studio Code\Microsoft VS Code\bin;C:\Program Files\platform-tools;C:\Program Files\exiftool-13.42_64;C:\exiftool;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="24.0.2+12-54"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="68.0"/>
+  </properties>
+  <testcase name="testCreateUser" classname="com.pratikum.rest.tests.UserAPITests" time="2.701"/>
+  <testcase name="testDeleteUser" classname="com.pratikum.rest.tests.UserAPITests" time="1.234"/>
+  <testcase name="testGetAllUsers" classname="com.pratikum.rest.tests.UserAPITests" time="0.361"/>
+  <testcase name="testGetUserById" classname="com.pratikum.rest.tests.UserAPITests" time="0.303"/>
+  <testcase name="testGetUserNotFound" classname="com.pratikum.rest.tests.UserAPITests" time="0.114"/>
+  <testcase name="testUpdateUser" classname="com.pratikum.rest.tests.UserAPITests" time="1.653"/>
+  <testcase name="testCreatePostWithoutAuth" classname="com.pratikum.rest.tests.AuthenticationTests" time="0.365"/>
+  <testcase name="testFailedAuthenticationMock" classname="com.pratikum.rest.tests.AuthenticationTests" time="0.107"/>
+  <testcase name="testRegResAPIAvailability" classname="com.pratikum.rest.tests.AuthenticationTests" time="0.126"/>
+  <testcase name="testResponseHeaders" classname="com.pratikum.rest.tests.AuthenticationTests" time="2.249"/>
+  <testcase name="testSuccessfulLoginMock" classname="com.pratikum.rest.tests.AuthenticationTests" time="0.131"/>
+  <testcase name="testWithMalformedData" classname="com.pratikum.rest.tests.AuthenticationTests" time="1.671"/>
+  <testcase name="testCreateUserWithEmptyBody" classname="com.pratikum.rest.tests.AdvancedAPITests" time="0.348">
+    <system-out><![CDATA[Request method:	POST
+Request URI:	https://jsonplaceholder.typicode.com/users
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    
+}
+HTTP/1.1 201 Created
+Date: Wed, 24 Dec 2025 16:51:13 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 14
+Connection: keep-alive
+access-control-allow-credentials: true
+access-control-expose-headers: Location
+Cache-Control: no-cache
+etag: W/"e-HA6WWAG/c4REvZ4q9d0N16BTb2A"
+expires: -1
+location: https://jsonplaceholder.typicode.com/users/11
+nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+pragma: no-cache
+report-to: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=qd41n1KESAx0s6WjmrK1oPa1Nw4zi%2FVg3jLMEl1erBw%3D\u0026sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d\u0026ts=1766595073"}],"max_age":3600}
+reporting-endpoints: heroku-nel="https://nel.heroku.com/reports?s=qd41n1KESAx0s6WjmrK1oPa1Nw4zi%2FVg3jLMEl1erBw%3D&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&ts=1766595073"
+Server: cloudflare
+vary: Origin, X-HTTP-Method-Override, Accept-Encoding
+via: 2.0 heroku-router
+x-content-type-options: nosniff
+x-powered-by: Express
+x-ratelimit-limit: 1000
+x-ratelimit-remaining: 994
+x-ratelimit-reset: 1766595088
+cf-cache-status: DYNAMIC
+CF-RAY: 9b319a280b62b251-SIN
+alt-svc: h3=":443"; ma=86400
+
+{
+    "id": 11
+}
+]]></system-out>
+  </testcase>
+  <testcase name="testCreateUserWithFakerJson" classname="com.pratikum.rest.tests.AdvancedAPITests" time="2.693">
+    <system-out><![CDATA[Generated JSON: {
+    "name": "Yossi Umbara",
+    "username": "umarkartawijaya",
+    "email": "oki.budiman@gmail.com"
+}
+
+Request method:	POST
+Request URI:	https://jsonplaceholder.typicode.com/users
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Yossi Umbara",
+    "username": "umarkartawijaya",
+    "email": "oki.budiman@gmail.com"
+}
+HTTP/1.1 201 Created
+Date: Wed, 24 Dec 2025 16:51:14 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 109
+Connection: keep-alive
+access-control-allow-credentials: true
+access-control-expose-headers: Location
+Cache-Control: no-cache
+etag: W/"6d-XjSZhGiJsT1H8N/Fm3Q5bdhFRrM"
+expires: -1
+location: https://jsonplaceholder.typicode.com/users/11
+nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+pragma: no-cache
+report-to: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=Nnx2t6Bl2JbTDgw64n6Mq2qQYA0G3oDr3mGT8LRJ5Vg%3D\u0026sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d\u0026ts=1766595074"}],"max_age":3600}
+reporting-endpoints: heroku-nel="https://nel.heroku.com/reports?s=Nnx2t6Bl2JbTDgw64n6Mq2qQYA0G3oDr3mGT8LRJ5Vg%3D&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&ts=1766595074"
+Server: cloudflare
+vary: Origin, X-HTTP-Method-Override, Accept-Encoding
+via: 2.0 heroku-router
+x-content-type-options: nosniff
+x-powered-by: Express
+x-ratelimit-limit: 1000
+x-ratelimit-remaining: 993
+x-ratelimit-reset: 1766595088
+cf-cache-status: DYNAMIC
+CF-RAY: 9b319a2e3c58ce31-SIN
+alt-svc: h3=":443"; ma=86400
+
+{
+    "name": "Yossi Umbara",
+    "username": "umarkartawijaya",
+    "email": "oki.budiman@gmail.com",
+    "id": 11
+}
+]]></system-out>
+  </testcase>
+  <testcase name="testCreateUserWithHashMap" classname="com.pratikum.rest.tests.AdvancedAPITests" time="1.421">
+    <system-out><![CDATA[Request method:	POST
+Request URI:	https://jsonplaceholder.typicode.com/users
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Test User HashMap",
+    "email": "test@example.com",
+    "username": "testuser"
+}
+HTTP/1.1 201 Created
+Date: Wed, 24 Dec 2025 16:51:17 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 102
+Connection: keep-alive
+access-control-allow-credentials: true
+access-control-expose-headers: Location
+Cache-Control: no-cache
+etag: W/"66-Ya0fcT/S+zHeV2C5iJglstWuMco"
+expires: -1
+location: https://jsonplaceholder.typicode.com/users/11
+nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+pragma: no-cache
+report-to: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=5CEe7DIBJOnywQvD6LKydNhzwtEBbQpf%2BlqUAP67wXM%3D\u0026sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d\u0026ts=1766595077"}],"max_age":3600}
+reporting-endpoints: heroku-nel="https://nel.heroku.com/reports?s=5CEe7DIBJOnywQvD6LKydNhzwtEBbQpf%2BlqUAP67wXM%3D&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&ts=1766595077"
+Server: cloudflare
+vary: Origin, X-HTTP-Method-Override, Accept-Encoding
+via: 2.0 heroku-router
+x-content-type-options: nosniff
+x-powered-by: Express
+x-ratelimit-limit: 1000
+x-ratelimit-remaining: 992
+x-ratelimit-reset: 1766595088
+cf-cache-status: DYNAMIC
+CF-RAY: 9b319a3fee3dce11-SIN
+alt-svc: h3=":443"; ma=86400
+
+{
+    "name": "Test User HashMap",
+    "email": "test@example.com",
+    "username": "testuser",
+    "id": 11
+}
+]]></system-out>
+  </testcase>
+  <testcase name="testCreateUserWithInvalidJSON" classname="com.pratikum.rest.tests.AdvancedAPITests" time="27.399">
+    <system-out><![CDATA[Request method:	POST
+Request URI:	https://jsonplaceholder.typicode.com/users
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{invalid json}
+HTTP/1.1 500 Internal Server Error
+Date: Wed, 24 Dec 2025 16:51:24 GMT
+Content-Type: text/html; charset=utf-8
+Content-Length: 667
+Connection: keep-alive
+access-control-allow-credentials: true
+Cache-Control: no-cache
+etag: W/"29b-QIiZJ1xSk8bp1NeXyQOj+pCjZPo"
+expires: -1
+nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+pragma: no-cache
+report-to: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=1C80NJu4Dc5%2B2V7tVTf4P7TmikwbozdeT1hM%2BnOz%2F9U%3D\u0026sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d\u0026ts=1766595084"}],"max_age":3600}
+reporting-endpoints: heroku-nel="https://nel.heroku.com/reports?s=1C80NJu4Dc5%2B2V7tVTf4P7TmikwbozdeT1hM%2BnOz%2F9U%3D&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&ts=1766595084"
+Server: cloudflare
+vary: Origin, X-HTTP-Method-Override, Accept-Encoding
+via: 2.0 heroku-router
+x-powered-by: Express
+x-ratelimit-limit: 1000
+x-ratelimit-remaining: 991
+x-ratelimit-reset: 1766595088
+cf-cache-status: DYNAMIC
+CF-RAY: 9b319a690bd140b0-SIN
+alt-svc: h3=":443"; ma=86400
+
+<html>
+  <body>
+SyntaxError: Unexpected token i in JSON at position 1
+    at JSON.parse (    <anonymous>)
+    at parse (/app/node_modules/body-parser/lib/types/json.js:89:19)
+    at /app/node_modules/body-parser/lib/read.js:121:18
+    at invokeCallback (/app/node_modules/body-parser/node_modules/raw-body/index.js:224:16)
+    at done (/app/node_modules/body-parser/node_modules/raw-body/index.js:213:7)
+    at IncomingMessage.onEnd (/app/node_modules/body-parser/node_modules/raw-body/index.js:273:7)
+    at IncomingMessage.emit (node:events:525:35)
+    at endReadableNT (node:internal/streams/readable:1358:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)</anonymous>
+  </body>
+</html>
+]]></system-out>
+  </testcase>
+  <testcase name="testCreateUserWithNullValues" classname="com.pratikum.rest.tests.AdvancedAPITests" time="0.723">
+    <system-out><![CDATA[Request method:	POST
+Request URI:	https://jsonplaceholder.typicode.com/users
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": null,
+    "email": "test@example.com",
+    "username": "testuser"
+}
+HTTP/1.1 201 Created
+Date: Wed, 24 Dec 2025 16:51:45 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 87
+Connection: keep-alive
+access-control-allow-credentials: true
+access-control-expose-headers: Location
+Cache-Control: no-cache
+etag: W/"57-LDqxzX+Os3uAECDiIqk8yvbSg8g"
+expires: -1
+location: https://jsonplaceholder.typicode.com/users/11
+nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+pragma: no-cache
+report-to: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=lPWmC97IdW5fqO8qcQwyKB7PUg6QSXXt06i%2B7MqS%2FAc%3D\u0026sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d\u0026ts=1766595105"}],"max_age":3600}
+reporting-endpoints: heroku-nel="https://nel.heroku.com/reports?s=lPWmC97IdW5fqO8qcQwyKB7PUg6QSXXt06i%2B7MqS%2FAc%3D&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&ts=1766595105"
+Server: cloudflare
+vary: Origin, X-HTTP-Method-Override, Accept-Encoding
+via: 2.0 heroku-router
+x-content-type-options: nosniff
+x-powered-by: Express
+x-ratelimit-limit: 1000
+x-ratelimit-remaining: 999
+x-ratelimit-reset: 1766595148
+cf-cache-status: DYNAMIC
+CF-RAY: 9b319af0abbfff89-SIN
+alt-svc: h3=":443"; ma=86400
+
+{
+    "name": null,
+    "email": "test@example.com",
+    "username": "testuser",
+    "id": 11
+}
+]]></system-out>
+  </testcase>
+  <testcase name="testCreateUserWithVeryLongName" classname="com.pratikum.rest.tests.AdvancedAPITests" time="0.351">
+    <system-out><![CDATA[Request method:	POST
+Request URI:	https://jsonplaceholder.typicode.com/users
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+    "email": "long@example.com",
+    "username": "longuser"
+}
+HTTP/1.1 201 Created
+Date: Wed, 24 Dec 2025 16:51:46 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 585
+Connection: keep-alive
+access-control-allow-credentials: true
+access-control-expose-headers: Location
+Cache-Control: no-cache
+etag: W/"249-CPsNkVIvpE8uj6OPk2JGMazGY5I"
+expires: -1
+location: https://jsonplaceholder.typicode.com/users/11
+nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+pragma: no-cache
+report-to: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=Hs56d9TisReqcYYJvk9pM1v3Y1hVnagxwqT1b9lfwSY%3D\u0026sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d\u0026ts=1766595106"}],"max_age":3600}
+reporting-endpoints: heroku-nel="https://nel.heroku.com/reports?s=Hs56d9TisReqcYYJvk9pM1v3Y1hVnagxwqT1b9lfwSY%3D&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&ts=1766595106"
+Server: cloudflare
+vary: Origin, X-HTTP-Method-Override, Accept-Encoding
+via: 2.0 heroku-router
+x-content-type-options: nosniff
+x-powered-by: Express
+x-ratelimit-limit: 1000
+x-ratelimit-remaining: 998
+x-ratelimit-reset: 1766595148
+cf-cache-status: DYNAMIC
+CF-RAY: 9b319af3cd32ce4f-SIN
+alt-svc: h3=":443"; ma=86400
+
+{
+    "name": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+    "email": "long@example.com",
+    "username": "longuser",
+    "id": 11
+}
+]]></system-out>
+  </testcase>
+  <testcase name="testDataDrivenWithFaker" classname="com.pratikum.rest.tests.AdvancedAPITests" time="4.106">
+    <system-out><![CDATA[Generated User 1: Diah Iswanto
+Request method:	POST
+Request URI:	https://jsonplaceholder.typicode.com/users
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "website": "www.ruslan-atmadja.name",
+    "address": {
+        "zipcode": "09041",
+        "city": "Samarinda",
+        "street": "Jl. Jend. Sudirman No. 53"
+    },
+    "phone": "082994771771",
+    "name": "Diah Iswanto",
+    "company": {
+        "catchPhrase": "Sharable zero defect moderator",
+        "name": "Ikhsan LLC"
+    },
+    "email": "arif.gozali@yahoo.com",
+    "username": "trimahendra"
+}
+HTTP/1.1 201 Created
+Date: Wed, 24 Dec 2025 16:51:47 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 381
+Connection: keep-alive
+access-control-allow-credentials: true
+access-control-expose-headers: Location
+Cache-Control: no-cache
+etag: W/"17d-Spydyese0XQW0hhVIZW8WScBGoE"
+expires: -1
+location: https://jsonplaceholder.typicode.com/users/11
+nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+pragma: no-cache
+report-to: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=Hs56d9TisReqcYYJvk9pM1v3Y1hVnagxwqT1b9lfwSY%3D\u0026sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d\u0026ts=1766595106"}],"max_age":3600}
+reporting-endpoints: heroku-nel="https://nel.heroku.com/reports?s=Hs56d9TisReqcYYJvk9pM1v3Y1hVnagxwqT1b9lfwSY%3D&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&ts=1766595106"
+Server: cloudflare
+vary: Origin, X-HTTP-Method-Override, Accept-Encoding
+via: 2.0 heroku-router
+x-content-type-options: nosniff
+x-powered-by: Express
+x-ratelimit-limit: 1000
+x-ratelimit-remaining: 997
+x-ratelimit-reset: 1766595148
+cf-cache-status: DYNAMIC
+CF-RAY: 9b319af6ba06a091-SIN
+alt-svc: h3=":443"; ma=86400
+
+{
+    "website": "www.ruslan-atmadja.name",
+    "address": {
+        "zipcode": "09041",
+        "city": "Samarinda",
+        "street": "Jl. Jend. Sudirman No. 53"
+    },
+    "phone": "082994771771",
+    "name": "Diah Iswanto",
+    "company": {
+        "catchPhrase": "Sharable zero defect moderator",
+        "name": "Ikhsan LLC"
+    },
+    "email": "arif.gozali@yahoo.com",
+    "username": "trimahendra",
+    "id": 11
+}
+Generated User 2: Anita Dinata
+Request method:	POST
+Request URI:	https://jsonplaceholder.typicode.com/users
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "website": "www.kiki-pribadi.org",
+    "address": {
+        "zipcode": "20995",
+        "city": "Berau",
+        "street": "Jl. MH. Thamrin No. 31"
+    },
+    "phone": "0801-8428-4432",
+    "name": "Anita Dinata",
+    "company": {
+        "catchPhrase": "Face to face disintermediate methodology",
+        "name": "Daniawan LLC"
+    },
+    "email": "salim.harjono@gmail.com",
+    "username": "wendyfauzi"
+}
+HTTP/1.1 201 Created
+Date: Wed, 24 Dec 2025 16:51:49 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 386
+Connection: keep-alive
+access-control-allow-credentials: true
+access-control-expose-headers: Location
+Cache-Control: no-cache
+etag: W/"182-R/K4rikJnRB0aD3x4k3bj7zM94U"
+expires: -1
+location: https://jsonplaceholder.typicode.com/users/11
+nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+pragma: no-cache
+report-to: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=ohgAw4OttAI2XlSf2QhPHb9%2B5CEapRIu759b%2F1OKBxg%3D\u0026sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d\u0026ts=1766595109"}],"max_age":3600}
+reporting-endpoints: heroku-nel="https://nel.heroku.com/reports?s=ohgAw4OttAI2XlSf2QhPHb9%2B5CEapRIu759b%2F1OKBxg%3D&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&ts=1766595109"
+Server: cloudflare
+vary: Origin, X-HTTP-Method-Override, Accept-Encoding
+via: 2.0 heroku-router
+x-content-type-options: nosniff
+x-powered-by: Express
+x-ratelimit-limit: 1000
+x-ratelimit-remaining: 996
+x-ratelimit-reset: 1766595148
+cf-cache-status: DYNAMIC
+CF-RAY: 9b319b0b8bddf8cc-SIN
+alt-svc: h3=":443"; ma=86400
+
+{
+    "website": "www.kiki-pribadi.org",
+    "address": {
+        "zipcode": "20995",
+        "city": "Berau",
+        "street": "Jl. MH. Thamrin No. 31"
+    },
+    "phone": "0801-8428-4432",
+    "name": "Anita Dinata",
+    "company": {
+        "catchPhrase": "Face to face disintermediate methodology",
+        "name": "Daniawan LLC"
+    },
+    "email": "salim.harjono@gmail.com",
+    "username": "wendyfauzi",
+    "id": 11
+}
+]]></system-out>
+  </testcase>
+  <testcase name="testGetPostsForUser" classname="com.pratikum.rest.tests.AdvancedAPITests" time="2.016">
+    <system-out><![CDATA[Request method:	GET
+Request URI:	https://jsonplaceholder.typicode.com/posts?userId=1
+Proxy:			<none>
+Request params:	<none>
+Query params:	userId=1
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Wed, 24 Dec 2025 16:51:51 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+access-control-allow-credentials: true
+Cache-Control: max-age=43200
+Content-Encoding: gzip
+etag: W/"aa6-j2NSH739l9uq40OywFMn7Y0C/iY"
+expires: -1
+nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+pragma: no-cache
+report-to: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=4%2BZh5cEKpwg9Bc8i16ldYHkFfnDBHpssT8AqdGFNK20%3D\u0026sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d\u0026ts=1766225576"}],"max_age":3600}
+reporting-endpoints: heroku-nel="https://nel.heroku.com/reports?s=4%2BZh5cEKpwg9Bc8i16ldYHkFfnDBHpssT8AqdGFNK20%3D&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&ts=1766225576"
+Server: cloudflare
+vary: Origin, Accept-Encoding
+via: 2.0 heroku-router
+x-content-type-options: nosniff
+x-powered-by: Express
+x-ratelimit-limit: 1000
+x-ratelimit-remaining: 999
+x-ratelimit-reset: 1766225621
+Age: 14874
+cf-cache-status: HIT
+CF-RAY: 9b319b198f1d91c6-SIN
+alt-svc: h3=":443"; ma=86400
+
+[
+    {
+        "userId": 1,
+        "id": 1,
+        "title": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
+        "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"
+    },
+    {
+        "userId": 1,
+        "id": 2,
+        "title": "qui est esse",
+        "body": "est rerum tempore vitae\nsequi sint nihil reprehenderit dolor beatae ea dolores neque\nfugiat blanditiis voluptate porro vel nihil molestiae ut reiciendis\nqui aperiam non debitis possimus qui neque nisi nulla"
+    },
+    {
+        "userId": 1,
+        "id": 3,
+        "title": "ea molestias quasi exercitationem repellat qui ipsa sit aut",
+        "body": "et iusto sed quo iure\nvoluptatem occaecati omnis eligendi aut ad\nvoluptatem doloribus vel accusantium quis pariatur\nmolestiae porro eius odio et labore et velit aut"
+    },
+    {
+        "userId": 1,
+        "id": 4,
+        "title": "eum et est occaecati",
+        "body": "ullam et saepe reiciendis voluptatem adipisci\nsit amet autem assumenda provident rerum culpa\nquis hic commodi nesciunt rem tenetur doloremque ipsam iure\nquis sunt voluptatem rerum illo velit"
+    },
+    {
+        "userId": 1,
+        "id": 5,
+        "title": "nesciunt quas odio",
+        "body": "repudiandae veniam quaerat sunt sed\nalias aut fugiat sit autem sed est\nvoluptatem omnis possimus esse voluptatibus quis\nest aut tenetur dolor neque"
+    },
+    {
+        "userId": 1,
+        "id": 6,
+        "title": "dolorem eum magni eos aperiam quia",
+        "body": "ut aspernatur corporis harum nihil quis provident sequi\nmollitia nobis aliquid molestiae\nperspiciatis et ea nemo ab reprehenderit accusantium quas\nvoluptate dolores velit et doloremque molestiae"
+    },
+    {
+        "userId": 1,
+        "id": 7,
+        "title": "magnam facilis autem",
+        "body": "dolore placeat quibusdam ea quo vitae\nmagni quis enim qui quis quo nemo aut saepe\nquidem repellat excepturi ut quia\nsunt ut sequi eos ea sed quas"
+    },
+    {
+        "userId": 1,
+        "id": 8,
+        "title": "dolorem dolore est ipsam",
+        "body": "dignissimos aperiam dolorem qui eum\nfacilis quibusdam animi sint suscipit qui sint possimus cum\nquaerat magni maiores excepturi\nipsam ut commodi dolor voluptatum modi aut vitae"
+    },
+    {
+        "userId": 1,
+        "id": 9,
+        "title": "nesciunt iure omnis dolorem tempora et accusantium",
+        "body": "consectetur animi nesciunt iure dolore\nenim quia ad\nveniam autem ut quam aut nobis\net est aut quod aut provident voluptas autem voluptas"
+    },
+    {
+        "userId": 1,
+        "id": 10,
+        "title": "optio molestias id quia eum",
+        "body": "quo et expedita modi cum officia vel magni\ndoloribus qui repudiandae\nvero nisi sit\nquos veniam quod sed accusamus veritatis error"
+    }
+]
+]]></system-out>
+  </testcase>
+  <testcase name="testGetUserWithInvalidId" classname="com.pratikum.rest.tests.AdvancedAPITests" time="0.292">
+    <system-out><![CDATA[Request method:	GET
+Request URI:	https://jsonplaceholder.typicode.com/users/invalid
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	id=invalid
+Headers:		Accept=application/json
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+Date: Wed, 24 Dec 2025 16:51:52 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+access-control-allow-credentials: true
+Cache-Control: max-age=43200
+etag: W/"2-vyGp6PvFo4RvsFtPoIWeCReyIC8"
+expires: -1
+nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+pragma: no-cache
+report-to: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=oAM6VL8p0xVr1p8wFmseAYs04OBqMiVDo6VeL1p1t64%3D\u0026sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d\u0026ts=1766592908"}],"max_age":3600}
+reporting-endpoints: heroku-nel="https://nel.heroku.com/reports?s=oAM6VL8p0xVr1p8wFmseAYs04OBqMiVDo6VeL1p1t64%3D&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&ts=1766592908"
+Server: cloudflare
+vary: Origin, Accept-Encoding
+via: 2.0 heroku-router
+x-content-type-options: nosniff
+x-powered-by: Express
+x-ratelimit-limit: 1000
+x-ratelimit-remaining: 994
+x-ratelimit-reset: 1766592928
+Age: 2204
+cf-cache-status: HIT
+Content-Encoding: gzip
+CF-RAY: 9b319b1c4fce6045-SIN
+alt-svc: h3=":443"; ma=86400
+
+{
+    
+}
+]]></system-out>
+  </testcase>
+  <testcase name="testMultipleUsersWithDataProvider[1](1)" classname="com.pratikum.rest.tests.AdvancedAPITests" time="1.093">
+    <system-out><![CDATA[Request method:	GET
+Request URI:	https://jsonplaceholder.typicode.com/users/1
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	id=1
+Headers:		Accept=application/json
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Wed, 24 Dec 2025 16:51:53 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+access-control-allow-credentials: true
+Cache-Control: max-age=43200
+etag: W/"1fd-+2Y3G3w049iSZtw5t1mzSnunngE"
+expires: -1
+nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+pragma: no-cache
+report-to: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=wV19f85wMFGf1xf4p6spsW8j7B5E0Is2IdDHhS3Gi5o%3D\u0026sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d\u0026ts=1766575295"}],"max_age":3600}
+reporting-endpoints: heroku-nel="https://nel.heroku.com/reports?s=wV19f85wMFGf1xf4p6spsW8j7B5E0Is2IdDHhS3Gi5o%3D&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&ts=1766575295"
+Server: cloudflare
+vary: Origin, Accept-Encoding
+via: 2.0 heroku-router
+x-content-type-options: nosniff
+x-powered-by: Express
+x-ratelimit-limit: 1000
+x-ratelimit-remaining: 935
+x-ratelimit-reset: 1766575329
+Age: 19818
+cf-cache-status: HIT
+Content-Encoding: gzip
+CF-RAY: 9b319b232f82ff8f-SIN
+alt-svc: h3=":443"; ma=86400
+
+{
+    "id": 1,
+    "name": "Leanne Graham",
+    "username": "Bret",
+    "email": "Sincere@april.biz",
+    "address": {
+        "street": "Kulas Light",
+        "suite": "Apt. 556",
+        "city": "Gwenborough",
+        "zipcode": "92998-3874",
+        "geo": {
+            "lat": "-37.3159",
+            "lng": "81.1496"
+        }
+    },
+    "phone": "1-770-736-8031 x56442",
+    "website": "hildegard.org",
+    "company": {
+        "name": "Romaguera-Crona",
+        "catchPhrase": "Multi-layered client-server neural-net",
+        "bs": "harness real-time e-markets"
+    }
+}
+]]></system-out>
+  </testcase>
+  <testcase name="testMultipleUsersWithDataProvider[2](2)" classname="com.pratikum.rest.tests.AdvancedAPITests" time="16.577">
+    <system-out><![CDATA[Request method:	GET
+Request URI:	https://jsonplaceholder.typicode.com/users/2
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	id=2
+Headers:		Accept=application/json
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Wed, 24 Dec 2025 16:52:10 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+access-control-allow-credentials: true
+Cache-Control: max-age=43200
+etag: W/"1fd-XTG63SYhaP/Uo6/vgmARnL3rpBk"
+expires: -1
+nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+pragma: no-cache
+report-to: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=SG%2Bj7PPgdfx%2F4hxaYo3osGW3Yf%2FQLFpZ6xJNan6wpgg%3D\u0026sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d\u0026ts=1766576786"}],"max_age":3600}
+reporting-endpoints: heroku-nel="https://nel.heroku.com/reports?s=SG%2Bj7PPgdfx%2F4hxaYo3osGW3Yf%2FQLFpZ6xJNan6wpgg%3D&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&ts=1766576786"
+Server: cloudflare
+vary: Origin, Accept-Encoding
+via: 2.0 heroku-router
+x-content-type-options: nosniff
+x-powered-by: Express
+x-ratelimit-limit: 1000
+x-ratelimit-remaining: 970
+x-ratelimit-reset: 1766576829
+Age: 18343
+cf-cache-status: HIT
+Content-Encoding: gzip
+CF-RAY: 9b319b8aefeffe00-SIN
+alt-svc: h3=":443"; ma=86400
+
+{
+    "id": 2,
+    "name": "Ervin Howell",
+    "username": "Antonette",
+    "email": "Shanna@melissa.tv",
+    "address": {
+        "street": "Victor Plains",
+        "suite": "Suite 879",
+        "city": "Wisokyburgh",
+        "zipcode": "90566-7771",
+        "geo": {
+            "lat": "-43.9509",
+            "lng": "-34.4618"
+        }
+    },
+    "phone": "010-692-6593 x09125",
+    "website": "anastasia.net",
+    "company": {
+        "name": "Deckow-Crist",
+        "catchPhrase": "Proactive didactic contingency",
+        "bs": "synergize scalable supply-chains"
+    }
+}
+]]></system-out>
+    <system-err><![CDATA[Dec 24, 2025 11:52:09 PM org.apache.http.impl.client.DefaultHttpClient tryExecute
+INFO: I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {s}->https://jsonplaceholder.typicode.com:443: The target server failed to respond
+Dec 24, 2025 11:52:09 PM org.apache.http.impl.client.DefaultHttpClient tryExecute
+INFO: Retrying request to {s}->https://jsonplaceholder.typicode.com:443
+]]></system-err>
+  </testcase>
+  <testcase name="testMultipleUsersWithDataProvider[3](3)" classname="com.pratikum.rest.tests.AdvancedAPITests" time="0.371">
+    <system-out><![CDATA[Request method:	GET
+Request URI:	https://jsonplaceholder.typicode.com/users/3
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	id=3
+Headers:		Accept=application/json
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Wed, 24 Dec 2025 16:52:10 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+access-control-allow-credentials: true
+Cache-Control: max-age=43200
+etag: W/"208-uuwhfwQMzFzbJr9Pg6DKXae0SXA"
+expires: -1
+nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+pragma: no-cache
+report-to: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=9k8uBcPkWmJSQDGBke0a4f17qj%2BAhcxEuDKNjB365Aw%3D\u0026sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d\u0026ts=1765879461"}],"max_age":3600}
+reporting-endpoints: heroku-nel="https://nel.heroku.com/reports?s=9k8uBcPkWmJSQDGBke0a4f17qj%2BAhcxEuDKNjB365Aw%3D&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&ts=1765879461"
+Server: cloudflare
+vary: Origin, Accept-Encoding
+via: 2.0 heroku-router
+x-content-type-options: nosniff
+x-powered-by: Express
+x-ratelimit-limit: 1000
+x-ratelimit-remaining: 999
+x-ratelimit-reset: 1765879494
+Age: 14989
+cf-cache-status: HIT
+Content-Encoding: gzip
+CF-RAY: 9b319b8d8e2d81e9-SIN
+alt-svc: h3=":443"; ma=86400
+
+{
+    "id": 3,
+    "name": "Clementine Bauch",
+    "username": "Samantha",
+    "email": "Nathan@yesenia.net",
+    "address": {
+        "street": "Douglas Extension",
+        "suite": "Suite 847",
+        "city": "McKenziehaven",
+        "zipcode": "59590-4157",
+        "geo": {
+            "lat": "-68.6102",
+            "lng": "-47.0653"
+        }
+    },
+    "phone": "1-463-123-4447",
+    "website": "ramiro.info",
+    "company": {
+        "name": "Romaguera-Jacobson",
+        "catchPhrase": "Face to face bifurcated interface",
+        "bs": "e-enable strategic applications"
+    }
+}
+]]></system-out>
+  </testcase>
+  <testcase name="testMultipleUsersWithDataProvider[4](4)" classname="com.pratikum.rest.tests.AdvancedAPITests" time="63.73">
+    <system-out><![CDATA[Request method:	GET
+Request URI:	https://jsonplaceholder.typicode.com/users/4
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	id=4
+Headers:		Accept=application/json
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Wed, 24 Dec 2025 16:52:13 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+access-control-allow-credentials: true
+Cache-Control: max-age=43200
+etag: W/"20d-8RgvpSlsXJuYWj1NkFA2Hm1U5TI"
+expires: -1
+nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+pragma: no-cache
+report-to: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=%2BQsmlq%2BOwjynx9veDlrDTNjA0KFmOI8%2FMXPggEONvms%3D\u0026sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d\u0026ts=1766544804"}],"max_age":3600}
+reporting-endpoints: heroku-nel="https://nel.heroku.com/reports?s=%2BQsmlq%2BOwjynx9veDlrDTNjA0KFmOI8%2FMXPggEONvms%3D&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&ts=1766544804"
+Server: cloudflare
+vary: Origin, Accept-Encoding
+via: 2.0 heroku-router
+x-content-type-options: nosniff
+x-powered-by: Express
+x-ratelimit-limit: 1000
+x-ratelimit-remaining: 999
+x-ratelimit-reset: 1766544849
+Age: 21005
+cf-cache-status: HIT
+Content-Encoding: gzip
+CF-RAY: 9b319b9e6f9d3de1-SIN
+alt-svc: h3=":443"; ma=86400
+
+{
+    "id": 4,
+    "name": "Patricia Lebsack",
+    "username": "Karianne",
+    "email": "Julianne.OConner@kory.org",
+    "address": {
+        "street": "Hoeger Mall",
+        "suite": "Apt. 692",
+        "city": "South Elvis",
+        "zipcode": "53919-4257",
+        "geo": {
+            "lat": "29.4572",
+            "lng": "-164.2990"
+        }
+    },
+    "phone": "493-170-9623 x156",
+    "website": "kale.biz",
+    "company": {
+        "name": "Robel-Corkery",
+        "catchPhrase": "Multi-tiered zero tolerance productivity",
+        "bs": "transition cutting-edge web services"
+    }
+}
+]]></system-out>
+  </testcase>
+  <testcase name="testMultipleUsersWithDataProvider[5](5)" classname="com.pratikum.rest.tests.AdvancedAPITests" time="0.604">
+    <system-out><![CDATA[Request method:	GET
+Request URI:	https://jsonplaceholder.typicode.com/users/5
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	id=5
+Headers:		Accept=application/json
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Wed, 24 Dec 2025 16:53:14 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+access-control-allow-credentials: true
+Cache-Control: max-age=43200
+etag: W/"1fb-gmS8Go1GsKpTWscwm+5AFpuro+k"
+expires: -1
+nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+pragma: no-cache
+report-to: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=F32aaUmj47NIO%2BhyRL2119FtKWLnYqM2Kvub3y32sTE%3D\u0026sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d\u0026ts=1766474265"}],"max_age":3600}
+reporting-endpoints: heroku-nel="https://nel.heroku.com/reports?s=F32aaUmj47NIO%2BhyRL2119FtKWLnYqM2Kvub3y32sTE%3D&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&ts=1766474265"
+Server: cloudflare
+vary: Origin, Accept-Encoding
+via: 2.0 heroku-router
+x-content-type-options: nosniff
+x-powered-by: Express
+x-ratelimit-limit: 1000
+x-ratelimit-remaining: 999
+x-ratelimit-reset: 1766474271
+Age: 12125
+cf-cache-status: HIT
+Content-Encoding: gzip
+CF-RAY: 9b319d1f9d58e1e4-MRS
+alt-svc: h3=":443"; ma=86400
+
+{
+    "id": 5,
+    "name": "Chelsey Dietrich",
+    "username": "Kamren",
+    "email": "Lucio_Hettinger@annie.ca",
+    "address": {
+        "street": "Skiles Walks",
+        "suite": "Suite 351",
+        "city": "Roscoeview",
+        "zipcode": "33263",
+        "geo": {
+            "lat": "-31.8129",
+            "lng": "62.5342"
+        }
+    },
+    "phone": "(254)954-1289",
+    "website": "demarco.info",
+    "company": {
+        "name": "Keebler LLC",
+        "catchPhrase": "User-centric fault-tolerant solution",
+        "bs": "revolutionize end-to-end systems"
+    }
+}
+]]></system-out>
+  </testcase>
+  <testcase name="testPaginationFunctionality" classname="com.pratikum.rest.tests.AdvancedAPITests" time="0.959">
+    <system-out><![CDATA[Request method:	GET
+Request URI:	https://jsonplaceholder.typicode.com/posts?userId=1
+Proxy:			<none>
+Request params:	<none>
+Query params:	userId=1
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Wed, 24 Dec 2025 16:53:15 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 1002
+Connection: keep-alive
+access-control-allow-credentials: true
+Cache-Control: max-age=43200
+Content-Encoding: gzip
+etag: W/"aa6-j2NSH739l9uq40OywFMn7Y0C/iY"
+expires: -1
+nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+pragma: no-cache
+report-to: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=jPY7w7%2FCFnl2KV6qprRwolWYwJF21jrsLv8pTS6En3E%3D\u0026sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d\u0026ts=1766464404"}],"max_age":3600}
+reporting-endpoints: heroku-nel="https://nel.heroku.com/reports?s=jPY7w7%2FCFnl2KV6qprRwolWYwJF21jrsLv8pTS6En3E%3D&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&ts=1766464404"
+Server: cloudflare
+vary: Origin, Accept-Encoding
+via: 2.0 heroku-router
+x-content-type-options: nosniff
+x-powered-by: Express
+x-ratelimit-limit: 1000
+x-ratelimit-remaining: 999
+x-ratelimit-reset: 1766464431
+Accept-Ranges: bytes
+cf-cache-status: REVALIDATED
+CF-RAY: 9b319d238dab78d0-MRS
+alt-svc: h3=":443"; ma=86400
+
+[
+    {
+        "userId": 1,
+        "id": 1,
+        "title": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
+        "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"
+    },
+    {
+        "userId": 1,
+        "id": 2,
+        "title": "qui est esse",
+        "body": "est rerum tempore vitae\nsequi sint nihil reprehenderit dolor beatae ea dolores neque\nfugiat blanditiis voluptate porro vel nihil molestiae ut reiciendis\nqui aperiam non debitis possimus qui neque nisi nulla"
+    },
+    {
+        "userId": 1,
+        "id": 3,
+        "title": "ea molestias quasi exercitationem repellat qui ipsa sit aut",
+        "body": "et iusto sed quo iure\nvoluptatem occaecati omnis eligendi aut ad\nvoluptatem doloribus vel accusantium quis pariatur\nmolestiae porro eius odio et labore et velit aut"
+    },
+    {
+        "userId": 1,
+        "id": 4,
+        "title": "eum et est occaecati",
+        "body": "ullam et saepe reiciendis voluptatem adipisci\nsit amet autem assumenda provident rerum culpa\nquis hic commodi nesciunt rem tenetur doloremque ipsam iure\nquis sunt voluptatem rerum illo velit"
+    },
+    {
+        "userId": 1,
+        "id": 5,
+        "title": "nesciunt quas odio",
+        "body": "repudiandae veniam quaerat sunt sed\nalias aut fugiat sit autem sed est\nvoluptatem omnis possimus esse voluptatibus quis\nest aut tenetur dolor neque"
+    },
+    {
+        "userId": 1,
+        "id": 6,
+        "title": "dolorem eum magni eos aperiam quia",
+        "body": "ut aspernatur corporis harum nihil quis provident sequi\nmollitia nobis aliquid molestiae\nperspiciatis et ea nemo ab reprehenderit accusantium quas\nvoluptate dolores velit et doloremque molestiae"
+    },
+    {
+        "userId": 1,
+        "id": 7,
+        "title": "magnam facilis autem",
+        "body": "dolore placeat quibusdam ea quo vitae\nmagni quis enim qui quis quo nemo aut saepe\nquidem repellat excepturi ut quia\nsunt ut sequi eos ea sed quas"
+    },
+    {
+        "userId": 1,
+        "id": 8,
+        "title": "dolorem dolore est ipsam",
+        "body": "dignissimos aperiam dolorem qui eum\nfacilis quibusdam animi sint suscipit qui sint possimus cum\nquaerat magni maiores excepturi\nipsam ut commodi dolor voluptatum modi aut vitae"
+    },
+    {
+        "userId": 1,
+        "id": 9,
+        "title": "nesciunt iure omnis dolorem tempora et accusantium",
+        "body": "consectetur animi nesciunt iure dolore\nenim quia ad\nveniam autem ut quam aut nobis\net est aut quod aut provident voluptas autem voluptas"
+    },
+    {
+        "userId": 1,
+        "id": 10,
+        "title": "optio molestias id quia eum",
+        "body": "quo et expedita modi cum officia vel magni\ndoloribus qui repudiandae\nvero nisi sit\nquos veniam quod sed accusamus veritatis error"
+    }
+]
+]]></system-out>
+  </testcase>
+  <testcase name="testResponseHeadersValidation" classname="com.pratikum.rest.tests.AdvancedAPITests" time="0.562">
+    <system-out><![CDATA[Request method:	GET
+Request URI:	https://jsonplaceholder.typicode.com/users/1
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Wed, 24 Dec 2025 16:53:16 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+access-control-allow-credentials: true
+Cache-Control: max-age=43200
+etag: W/"1fd-+2Y3G3w049iSZtw5t1mzSnunngE"
+expires: -1
+nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+pragma: no-cache
+report-to: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=tLUfITs%2BD94NUcfvSuFy381P3f1wMrPiTYG05YdS3KE%3D\u0026sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d\u0026ts=1766561822"}],"max_age":3600}
+reporting-endpoints: heroku-nel="https://nel.heroku.com/reports?s=tLUfITs%2BD94NUcfvSuFy381P3f1wMrPiTYG05YdS3KE%3D&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&ts=1766561822"
+Server: cloudflare
+vary: Origin, Accept-Encoding
+via: 2.0 heroku-router
+x-content-type-options: nosniff
+x-powered-by: Express
+x-ratelimit-limit: 1000
+x-ratelimit-remaining: 997
+x-ratelimit-reset: 1766561829
+Age: 4189
+cf-cache-status: HIT
+Content-Encoding: gzip
+CF-RAY: 9b319d296eba989e-MRS
+alt-svc: h3=":443"; ma=86400
+
+{
+    "id": 1,
+    "name": "Leanne Graham",
+    "username": "Bret",
+    "email": "Sincere@april.biz",
+    "address": {
+        "street": "Kulas Light",
+        "suite": "Apt. 556",
+        "city": "Gwenborough",
+        "zipcode": "92998-3874",
+        "geo": {
+            "lat": "-37.3159",
+            "lng": "81.1496"
+        }
+    },
+    "phone": "1-770-736-8031 x56442",
+    "website": "hildegard.org",
+    "company": {
+        "name": "Romaguera-Crona",
+        "catchPhrase": "Multi-layered client-server neural-net",
+        "bs": "harness real-time e-markets"
+    }
+}
+]]></system-out>
+  </testcase>
+  <testcase name="testResponseTimePerformance" classname="com.pratikum.rest.tests.AdvancedAPITests" time="0.605">
+    <system-out><![CDATA[Request method:	GET
+Request URI:	https://jsonplaceholder.typicode.com/users
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Wed, 24 Dec 2025 16:53:16 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+access-control-allow-credentials: true
+Cache-Control: max-age=43200
+Content-Encoding: gzip
+etag: W/"160d-1eMSsxeJRfnVLRBmYJSbCiJZ1qQ"
+expires: -1
+nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+pragma: no-cache
+report-to: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=%2Fp0dMYLYO%2BOQW1v4LnmQ9Bilvvv4KWr45mHqAj86V%2BE%3D\u0026sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d\u0026ts=1763091872"}],"max_age":3600}
+reporting-endpoints: heroku-nel="https://nel.heroku.com/reports?s=%2Fp0dMYLYO%2BOQW1v4LnmQ9Bilvvv4KWr45mHqAj86V%2BE%3D&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&ts=1763091872"
+Server: cloudflare
+vary: Origin, Accept-Encoding
+via: 2.0 heroku-router
+x-content-type-options: nosniff
+x-powered-by: Express
+x-ratelimit-limit: 1000
+x-ratelimit-remaining: 999
+x-ratelimit-reset: 1763091893
+Age: 19759
+cf-cache-status: HIT
+CF-RAY: 9b319d2cebb111a6-MRS
+alt-svc: h3=":443"; ma=86400
+
+[
+    {
+        "id": 1,
+        "name": "Leanne Graham",
+        "username": "Bret",
+        "email": "Sincere@april.biz",
+        "address": {
+            "street": "Kulas Light",
+            "suite": "Apt. 556",
+            "city": "Gwenborough",
+            "zipcode": "92998-3874",
+            "geo": {
+                "lat": "-37.3159",
+                "lng": "81.1496"
+            }
+        },
+        "phone": "1-770-736-8031 x56442",
+        "website": "hildegard.org",
+        "company": {
+            "name": "Romaguera-Crona",
+            "catchPhrase": "Multi-layered client-server neural-net",
+            "bs": "harness real-time e-markets"
+        }
+    },
+    {
+        "id": 2,
+        "name": "Ervin Howell",
+        "username": "Antonette",
+        "email": "Shanna@melissa.tv",
+        "address": {
+            "street": "Victor Plains",
+            "suite": "Suite 879",
+            "city": "Wisokyburgh",
+            "zipcode": "90566-7771",
+            "geo": {
+                "lat": "-43.9509",
+                "lng": "-34.4618"
+            }
+        },
+        "phone": "010-692-6593 x09125",
+        "website": "anastasia.net",
+        "company": {
+            "name": "Deckow-Crist",
+            "catchPhrase": "Proactive didactic contingency",
+            "bs": "synergize scalable supply-chains"
+        }
+    },
+    {
+        "id": 3,
+        "name": "Clementine Bauch",
+        "username": "Samantha",
+        "email": "Nathan@yesenia.net",
+        "address": {
+            "street": "Douglas Extension",
+            "suite": "Suite 847",
+            "city": "McKenziehaven",
+            "zipcode": "59590-4157",
+            "geo": {
+                "lat": "-68.6102",
+                "lng": "-47.0653"
+            }
+        },
+        "phone": "1-463-123-4447",
+        "website": "ramiro.info",
+        "company": {
+            "name": "Romaguera-Jacobson",
+            "catchPhrase": "Face to face bifurcated interface",
+            "bs": "e-enable strategic applications"
+        }
+    },
+    {
+        "id": 4,
+        "name": "Patricia Lebsack",
+        "username": "Karianne",
+        "email": "Julianne.OConner@kory.org",
+        "address": {
+            "street": "Hoeger Mall",
+            "suite": "Apt. 692",
+            "city": "South Elvis",
+            "zipcode": "53919-4257",
+            "geo": {
+                "lat": "29.4572",
+                "lng": "-164.2990"
+            }
+        },
+        "phone": "493-170-9623 x156",
+        "website": "kale.biz",
+        "company": {
+            "name": "Robel-Corkery",
+            "catchPhrase": "Multi-tiered zero tolerance productivity",
+            "bs": "transition cutting-edge web services"
+        }
+    },
+    {
+        "id": 5,
+        "name": "Chelsey Dietrich",
+        "username": "Kamren",
+        "email": "Lucio_Hettinger@annie.ca",
+        "address": {
+            "street": "Skiles Walks",
+            "suite": "Suite 351",
+            "city": "Roscoeview",
+            "zipcode": "33263",
+            "geo": {
+                "lat": "-31.8129",
+                "lng": "62.5342"
+            }
+        },
+        "phone": "(254)954-1289",
+        "website": "demarco.info",
+        "company": {
+            "name": "Keebler LLC",
+            "catchPhrase": "User-centric fault-tolerant solution",
+            "bs": "revolutionize end-to-end systems"
+        }
+    },
+    {
+        "id": 6,
+        "name": "Mrs. Dennis Schulist",
+        "username": "Leopoldo_Corkery",
+        "email": "Karley_Dach@jasper.info",
+        "address": {
+            "street": "Norberto Crossing",
+            "suite": "Apt. 950",
+            "city": "South Christy",
+            "zipcode": "23505-1337",
+            "geo": {
+                "lat": "-71.4197",
+                "lng": "71.7478"
+            }
+        },
+        "phone": "1-477-935-8478 x6430",
+        "website": "ola.org",
+        "company": {
+            "name": "Considine-Lockman",
+            "catchPhrase": "Synchronised bottom-line interface",
+            "bs": "e-enable innovative applications"
+        }
+    },
+    {
+        "id": 7,
+        "name": "Kurtis Weissnat",
+        "username": "Elwyn.Skiles",
+        "email": "Telly.Hoeger@billy.biz",
+        "address": {
+            "street": "Rex Trail",
+            "suite": "Suite 280",
+            "city": "Howemouth",
+            "zipcode": "58804-1099",
+            "geo": {
+                "lat": "24.8918",
+                "lng": "21.8984"
+            }
+        },
+        "phone": "210.067.6132",
+        "website": "elvis.io",
+        "company": {
+            "name": "Johns Group",
+            "catchPhrase": "Configurable multimedia task-force",
+            "bs": "generate enterprise e-tailers"
+        }
+    },
+    {
+        "id": 8,
+        "name": "Nicholas Runolfsdottir V",
+        "username": "Maxime_Nienow",
+        "email": "Sherwood@rosamond.me",
+        "address": {
+            "street": "Ellsworth Summit",
+            "suite": "Suite 729",
+            "city": "Aliyaview",
+            "zipcode": "45169",
+            "geo": {
+                "lat": "-14.3990",
+                "lng": "-120.7677"
+            }
+        },
+        "phone": "586.493.6943 x140",
+        "website": "jacynthe.com",
+        "company": {
+            "name": "Abernathy Group",
+            "catchPhrase": "Implemented secondary concept",
+            "bs": "e-enable extensible e-tailers"
+        }
+    },
+    {
+        "id": 9,
+        "name": "Glenna Reichert",
+        "username": "Delphine",
+        "email": "Chaim_McDermott@dana.io",
+        "address": {
+            "street": "Dayna Park",
+            "suite": "Suite 449",
+            "city": "Bartholomebury",
+            "zipcode": "76495-3109",
+            "geo": {
+                "lat": "24.6463",
+                "lng": "-168.8889"
+            }
+        },
+        "phone": "(775)976-6794 x41206",
+        "website": "conrad.com",
+        "company": {
+            "name": "Yost and Sons",
+            "catchPhrase": "Switchable contextually-based project",
+            "bs": "aggregate real-time technologies"
+        }
+    },
+    {
+        "id": 10,
+        "name": "Clementina DuBuque",
+        "username": "Moriah.Stanton",
+        "email": "Rey.Padberg@karina.biz",
+        "address": {
+            "street": "Kattie Turnpike",
+            "suite": "Suite 198",
+            "city": "Lebsackbury",
+            "zipcode": "31428-2261",
+            "geo": {
+                "lat": "-38.2386",
+                "lng": "57.2232"
+            }
+        },
+        "phone": "024-648-3804",
+        "website": "ambrose.net",
+        "company": {
+            "name": "Hoeger LLC",
+            "catchPhrase": "Centralized empowering task-force",
+            "bs": "target end-to-end models"
+        }
+    }
+]
+]]></system-out>
+  </testcase>
+  <testcase name="testUpdateUserWithPartialData" classname="com.pratikum.rest.tests.AdvancedAPITests" time="0.691">
+    <system-out><![CDATA[Request method:	PATCH
+Request URI:	https://jsonplaceholder.typicode.com/users/1
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	id=1
+Headers:		Accept=application/json
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Updated Name Only"
+}
+HTTP/1.1 200 OK
+Date: Wed, 24 Dec 2025 16:53:17 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+access-control-allow-credentials: true
+Cache-Control: no-cache
+etag: W/"201-HprJ+ucN+baMuBtg2cr4pd1EZ/8"
+expires: -1
+nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+pragma: no-cache
+report-to: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=pPgeLUw2z6iXDx%2FggzXQ9UoEcfjadlFxZBFQJMOvUh4%3D\u0026sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d\u0026ts=1766595197"}],"max_age":3600}
+reporting-endpoints: heroku-nel="https://nel.heroku.com/reports?s=pPgeLUw2z6iXDx%2FggzXQ9UoEcfjadlFxZBFQJMOvUh4%3D&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&ts=1766595197"
+Server: cloudflare
+vary: Origin, Accept-Encoding
+via: 2.0 heroku-router
+x-content-type-options: nosniff
+x-powered-by: Express
+x-ratelimit-limit: 1000
+x-ratelimit-remaining: 998
+x-ratelimit-reset: 1766595208
+cf-cache-status: DYNAMIC
+Content-Encoding: gzip
+CF-RAY: 9b319d30be54e18d-MRS
+alt-svc: h3=":443"; ma=86400
+
+{
+    "id": 1,
+    "name": "Updated Name Only",
+    "username": "Bret",
+    "email": "Sincere@april.biz",
+    "address": {
+        "street": "Kulas Light",
+        "suite": "Apt. 556",
+        "city": "Gwenborough",
+        "zipcode": "92998-3874",
+        "geo": {
+            "lat": "-37.3159",
+            "lng": "81.1496"
+        }
+    },
+    "phone": "1-770-736-8031 x56442",
+    "website": "hildegard.org",
+    "company": {
+        "name": "Romaguera-Crona",
+        "catchPhrase": "Multi-layered client-server neural-net",
+        "bs": "harness real-time e-markets"
+    }
+}
+]]></system-out>
+  </testcase>
+  <testcase name="testCreateMultipleUsersWithFaker" classname="com.pratikum.rest.tests.FakerDataTests" time="1.349">
+    <system-out><![CDATA[Creating user 1: Noval Winarta
+Request method:	POST
+Request URI:	https://jsonplaceholder.typicode.com/users
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "website": "www.derry-gozali.info",
+    "address": {
+        "zipcode": "57966",
+        "city": "Padang Pariaman",
+        "street": "Jl. Hayamwuruk No. 46"
+    },
+    "phone": "0841-1627-7523",
+    "name": "Noval Winarta",
+    "company": {
+        "catchPhrase": "Profit-focused mobile neural-net",
+        "name": "Gunajaya and Sons"
+    },
+    "email": "olivia.umbara@hotmail.com",
+    "username": "ajiindrajaya"
+}
+Request method:	POST
+Request URI:	https://jsonplaceholder.typicode.com/users
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "website": "www.derry-gozali.info",
+    "address": {
+        "zipcode": "57966",
+        "city": "Padang Pariaman",
+        "street": "Jl. Hayamwuruk No. 46"
+    },
+    "phone": "0841-1627-7523",
+    "name": "Noval Winarta",
+    "company": {
+        "catchPhrase": "Profit-focused mobile neural-net",
+        "name": "Gunajaya and Sons"
+    },
+    "email": "olivia.umbara@hotmail.com",
+    "username": "ajiindrajaya"
+}
+HTTP/1.1 201 Created
+Date: Wed, 24 Dec 2025 16:53:18 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 398
+Connection: keep-alive
+access-control-allow-credentials: true
+access-control-expose-headers: Location
+Cache-Control: no-cache
+etag: W/"18e-Vyaf91PX244rtgaSqcQbc05dajs"
+expires: -1
+location: https://jsonplaceholder.typicode.com/users/11
+nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+pragma: no-cache
+report-to: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=aHM9pbD25ZoMvSC0ZWgNQJeW7IZacgRZqrQ52qu0Hts%3D\u0026sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d\u0026ts=1766595198"}],"max_age":3600}
+reporting-endpoints: heroku-nel="https://nel.heroku.com/reports?s=aHM9pbD25ZoMvSC0ZWgNQJeW7IZacgRZqrQ52qu0Hts%3D&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&ts=1766595198"
+Server: cloudflare
+vary: Origin, X-HTTP-Method-Override, Accept-Encoding
+via: 2.0 heroku-router
+x-content-type-options: nosniff
+x-powered-by: Express
+x-ratelimit-limit: 1000
+x-ratelimit-remaining: 997
+x-ratelimit-reset: 1766595208
+cf-cache-status: DYNAMIC
+CF-RAY: 9b319d351f98e1d0-MRS
+alt-svc: h3=":443"; ma=86400
+
+{
+    "website": "www.derry-gozali.info",
+    "address": {
+        "zipcode": "57966",
+        "city": "Padang Pariaman",
+        "street": "Jl. Hayamwuruk No. 46"
+    },
+    "phone": "0841-1627-7523",
+    "name": "Noval Winarta",
+    "company": {
+        "catchPhrase": "Profit-focused mobile neural-net",
+        "name": "Gunajaya and Sons"
+    },
+    "email": "olivia.umbara@hotmail.com",
+    "username": "ajiindrajaya",
+    "id": 11
+}
+HTTP/1.1 201 Created
+Date: Wed, 24 Dec 2025 16:53:18 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 398
+Connection: keep-alive
+access-control-allow-credentials: true
+access-control-expose-headers: Location
+Cache-Control: no-cache
+etag: W/"18e-Vyaf91PX244rtgaSqcQbc05dajs"
+expires: -1
+location: https://jsonplaceholder.typicode.com/users/11
+nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+pragma: no-cache
+report-to: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=aHM9pbD25ZoMvSC0ZWgNQJeW7IZacgRZqrQ52qu0Hts%3D\u0026sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d\u0026ts=1766595198"}],"max_age":3600}
+reporting-endpoints: heroku-nel="https://nel.heroku.com/reports?s=aHM9pbD25ZoMvSC0ZWgNQJeW7IZacgRZqrQ52qu0Hts%3D&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&ts=1766595198"
+Server: cloudflare
+vary: Origin, X-HTTP-Method-Override, Accept-Encoding
+via: 2.0 heroku-router
+x-content-type-options: nosniff
+x-powered-by: Express
+x-ratelimit-limit: 1000
+x-ratelimit-remaining: 997
+x-ratelimit-reset: 1766595208
+cf-cache-status: DYNAMIC
+CF-RAY: 9b319d351f98e1d0-MRS
+alt-svc: h3=":443"; ma=86400
+
+{
+    "website": "www.derry-gozali.info",
+    "address": {
+        "zipcode": "57966",
+        "city": "Padang Pariaman",
+        "street": "Jl. Hayamwuruk No. 46"
+    },
+    "phone": "0841-1627-7523",
+    "name": "Noval Winarta",
+    "company": {
+        "catchPhrase": "Profit-focused mobile neural-net",
+        "name": "Gunajaya and Sons"
+    },
+    "email": "olivia.umbara@hotmail.com",
+    "username": "ajiindrajaya",
+    "id": 11
+}
+Creating user 2: Indah Mahendra
+Request method:	POST
+Request URI:	https://jsonplaceholder.typicode.com/users
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "website": "www.noval-budiarto.biz",
+    "address": {
+        "zipcode": "15255",
+        "city": "Aceh Jaya",
+        "street": "Jl. Rasuna Said No. 41"
+    },
+    "phone": "081502306343",
+    "name": "Indah Mahendra",
+    "company": {
+        "catchPhrase": "Implemented discrete secured line",
+        "name": "Rianto-Adriansyah"
+    },
+    "email": "wisnu.komarudin@yahoo.com",
+    "username": "salimismail"
+}
+Request method:	POST
+Request URI:	https://jsonplaceholder.typicode.com/users
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "website": "www.noval-budiarto.biz",
+    "address": {
+        "zipcode": "15255",
+        "city": "Aceh Jaya",
+        "street": "Jl. Rasuna Said No. 41"
+    },
+    "phone": "081502306343",
+    "name": "Indah Mahendra",
+    "company": {
+        "catchPhrase": "Implemented discrete secured line",
+        "name": "Rianto-Adriansyah"
+    },
+    "email": "wisnu.komarudin@yahoo.com",
+    "username": "salimismail"
+}
+HTTP/1.1 201 Created
+Date: Wed, 24 Dec 2025 16:53:19 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 393
+Connection: keep-alive
+access-control-allow-credentials: true
+access-control-expose-headers: Location
+Cache-Control: no-cache
+etag: W/"189-JSqF58Z4idZEYhikhNZCtE8kFJ8"
+expires: -1
+location: https://jsonplaceholder.typicode.com/users/11
+nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+pragma: no-cache
+report-to: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=aHM9pbD25ZoMvSC0ZWgNQJeW7IZacgRZqrQ52qu0Hts%3D\u0026sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d\u0026ts=1766595198"}],"max_age":3600}
+reporting-endpoints: heroku-nel="https://nel.heroku.com/reports?s=aHM9pbD25ZoMvSC0ZWgNQJeW7IZacgRZqrQ52qu0Hts%3D&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&ts=1766595198"
+Server: cloudflare
+vary: Origin, X-HTTP-Method-Override, Accept-Encoding
+via: 2.0 heroku-router
+x-content-type-options: nosniff
+x-powered-by: Express
+x-ratelimit-limit: 1000
+x-ratelimit-remaining: 996
+x-ratelimit-reset: 1766595208
+cf-cache-status: DYNAMIC
+CF-RAY: 9b319d394b5e2b24-MRS
+alt-svc: h3=":443"; ma=86400
+
+{
+    "website": "www.noval-budiarto.biz",
+    "address": {
+        "zipcode": "15255",
+        "city": "Aceh Jaya",
+        "street": "Jl. Rasuna Said No. 41"
+    },
+    "phone": "081502306343",
+    "name": "Indah Mahendra",
+    "company": {
+        "catchPhrase": "Implemented discrete secured line",
+        "name": "Rianto-Adriansyah"
+    },
+    "email": "wisnu.komarudin@yahoo.com",
+    "username": "salimismail",
+    "id": 11
+}
+HTTP/1.1 201 Created
+Date: Wed, 24 Dec 2025 16:53:19 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 393
+Connection: keep-alive
+access-control-allow-credentials: true
+access-control-expose-headers: Location
+Cache-Control: no-cache
+etag: W/"189-JSqF58Z4idZEYhikhNZCtE8kFJ8"
+expires: -1
+location: https://jsonplaceholder.typicode.com/users/11
+nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+pragma: no-cache
+report-to: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=aHM9pbD25ZoMvSC0ZWgNQJeW7IZacgRZqrQ52qu0Hts%3D\u0026sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d\u0026ts=1766595198"}],"max_age":3600}
+reporting-endpoints: heroku-nel="https://nel.heroku.com/reports?s=aHM9pbD25ZoMvSC0ZWgNQJeW7IZacgRZqrQ52qu0Hts%3D&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&ts=1766595198"
+Server: cloudflare
+vary: Origin, X-HTTP-Method-Override, Accept-Encoding
+via: 2.0 heroku-router
+x-content-type-options: nosniff
+x-powered-by: Express
+x-ratelimit-limit: 1000
+x-ratelimit-remaining: 996
+x-ratelimit-reset: 1766595208
+cf-cache-status: DYNAMIC
+CF-RAY: 9b319d394b5e2b24-MRS
+alt-svc: h3=":443"; ma=86400
+
+{
+    "website": "www.noval-budiarto.biz",
+    "address": {
+        "zipcode": "15255",
+        "city": "Aceh Jaya",
+        "street": "Jl. Rasuna Said No. 41"
+    },
+    "phone": "081502306343",
+    "name": "Indah Mahendra",
+    "company": {
+        "catchPhrase": "Implemented discrete secured line",
+        "name": "Rianto-Adriansyah"
+    },
+    "email": "wisnu.komarudin@yahoo.com",
+    "username": "salimismail",
+    "id": 11
+}
+]]></system-out>
+  </testcase>
+  <testcase name="testCreateUserWithAddress" classname="com.pratikum.rest.tests.FakerDataTests" time="0.681">
+    <system-out><![CDATA[User with Address:
+Name: Slamet Hermawan
+Street: Jl. Kartini No. 26
+City: Pati
+Request method:	POST
+Request URI:	https://jsonplaceholder.typicode.com/users
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "website": "www.khrisna-tjahjadi.biz",
+    "address": {
+        "zipcode": "79419",
+        "city": "Pati",
+        "street": "Jl. Kartini No. 26"
+    },
+    "phone": "0876-1701-9424",
+    "name": "Slamet Hermawan",
+    "company": {
+        "catchPhrase": "Upgradable system-worthy application",
+        "name": "Rusli LLC"
+    },
+    "email": "toni.thamrin@hotmail.com",
+    "username": "oktaadriansyah"
+}
+Request method:	POST
+Request URI:	https://jsonplaceholder.typicode.com/users
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "website": "www.khrisna-tjahjadi.biz",
+    "address": {
+        "zipcode": "79419",
+        "city": "Pati",
+        "street": "Jl. Kartini No. 26"
+    },
+    "phone": "0876-1701-9424",
+    "name": "Slamet Hermawan",
+    "company": {
+        "catchPhrase": "Upgradable system-worthy application",
+        "name": "Rusli LLC"
+    },
+    "email": "toni.thamrin@hotmail.com",
+    "username": "oktaadriansyah"
+}
+HTTP/1.1 201 Created
+Date: Wed, 24 Dec 2025 16:53:19 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 386
+Connection: keep-alive
+access-control-allow-credentials: true
+access-control-expose-headers: Location
+Cache-Control: no-cache
+etag: W/"182-1rXiXPePsu1nDVhlg818leUpmCc"
+expires: -1
+location: https://jsonplaceholder.typicode.com/users/11
+nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+pragma: no-cache
+report-to: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=DOr0mQNkzKyMbMjKCl2jDVOSO8qCHSBawq%2BEZjUhT%2FA%3D\u0026sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d\u0026ts=1766595199"}],"max_age":3600}
+reporting-endpoints: heroku-nel="https://nel.heroku.com/reports?s=DOr0mQNkzKyMbMjKCl2jDVOSO8qCHSBawq%2BEZjUhT%2FA%3D&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&ts=1766595199"
+Server: cloudflare
+vary: Origin, X-HTTP-Method-Override, Accept-Encoding
+via: 2.0 heroku-router
+x-content-type-options: nosniff
+x-powered-by: Express
+x-ratelimit-limit: 1000
+x-ratelimit-remaining: 995
+x-ratelimit-reset: 1766595208
+cf-cache-status: DYNAMIC
+CF-RAY: 9b319d3d8ee999f2-MRS
+alt-svc: h3=":443"; ma=86400
+
+{
+    "website": "www.khrisna-tjahjadi.biz",
+    "address": {
+        "zipcode": "79419",
+        "city": "Pati",
+        "street": "Jl. Kartini No. 26"
+    },
+    "phone": "0876-1701-9424",
+    "name": "Slamet Hermawan",
+    "company": {
+        "catchPhrase": "Upgradable system-worthy application",
+        "name": "Rusli LLC"
+    },
+    "email": "toni.thamrin@hotmail.com",
+    "username": "oktaadriansyah",
+    "id": 11
+}
+HTTP/1.1 201 Created
+Date: Wed, 24 Dec 2025 16:53:19 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 386
+Connection: keep-alive
+access-control-allow-credentials: true
+access-control-expose-headers: Location
+Cache-Control: no-cache
+etag: W/"182-1rXiXPePsu1nDVhlg818leUpmCc"
+expires: -1
+location: https://jsonplaceholder.typicode.com/users/11
+nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+pragma: no-cache
+report-to: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=DOr0mQNkzKyMbMjKCl2jDVOSO8qCHSBawq%2BEZjUhT%2FA%3D\u0026sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d\u0026ts=1766595199"}],"max_age":3600}
+reporting-endpoints: heroku-nel="https://nel.heroku.com/reports?s=DOr0mQNkzKyMbMjKCl2jDVOSO8qCHSBawq%2BEZjUhT%2FA%3D&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&ts=1766595199"
+Server: cloudflare
+vary: Origin, X-HTTP-Method-Override, Accept-Encoding
+via: 2.0 heroku-router
+x-content-type-options: nosniff
+x-powered-by: Express
+x-ratelimit-limit: 1000
+x-ratelimit-remaining: 995
+x-ratelimit-reset: 1766595208
+cf-cache-status: DYNAMIC
+CF-RAY: 9b319d3d8ee999f2-MRS
+alt-svc: h3=":443"; ma=86400
+
+{
+    "website": "www.khrisna-tjahjadi.biz",
+    "address": {
+        "zipcode": "79419",
+        "city": "Pati",
+        "street": "Jl. Kartini No. 26"
+    },
+    "phone": "0876-1701-9424",
+    "name": "Slamet Hermawan",
+    "company": {
+        "catchPhrase": "Upgradable system-worthy application",
+        "name": "Rusli LLC"
+    },
+    "email": "toni.thamrin@hotmail.com",
+    "username": "oktaadriansyah",
+    "id": 11
+}
+]]></system-out>
+  </testcase>
+  <testcase name="testCreateUserWithCompanyData" classname="com.pratikum.rest.tests.FakerDataTests" time="0.709">
+    <system-out><![CDATA[User with Company Data:
+User: Danang Ferdian
+Company: Budiman Group
+Catchphrase: Organized asynchronous archive
+Request method:	POST
+Request URI:	https://jsonplaceholder.typicode.com/users
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "website": "www.sigit-wardhana.info",
+    "address": {
+        "zipcode": "21815",
+        "city": "Lumajang",
+        "street": "Jl. MH. Thamrin No. 93"
+    },
+    "phone": "+628542379967",
+    "name": "Danang Ferdian",
+    "company": {
+        "bs": "recontextualize holistic models",
+        "catchPhrase": "Organized asynchronous archive",
+        "name": "Budiman Group"
+    },
+    "email": "budi.pradhana@gmail.com",
+    "username": "umarwardhana"
+}
+Request method:	POST
+Request URI:	https://jsonplaceholder.typicode.com/users
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "website": "www.sigit-wardhana.info",
+    "address": {
+        "zipcode": "21815",
+        "city": "Lumajang",
+        "street": "Jl. MH. Thamrin No. 93"
+    },
+    "phone": "+628542379967",
+    "name": "Danang Ferdian",
+    "company": {
+        "bs": "recontextualize holistic models",
+        "catchPhrase": "Organized asynchronous archive",
+        "name": "Budiman Group"
+    },
+    "email": "budi.pradhana@gmail.com",
+    "username": "umarwardhana"
+}
+HTTP/1.1 201 Created
+Date: Wed, 24 Dec 2025 16:53:20 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 431
+Connection: keep-alive
+access-control-allow-credentials: true
+access-control-expose-headers: Location
+Cache-Control: no-cache
+etag: W/"1af-HQ6koDBGnGlMStasW1S3gDzmfrU"
+expires: -1
+location: https://jsonplaceholder.typicode.com/users/11
+nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+pragma: no-cache
+report-to: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=dgsPGCO7Nz7PHqN4dkBRuIuUrcuhMCA%2FudeI%2FSWuF9k%3D\u0026sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d\u0026ts=1766595200"}],"max_age":3600}
+reporting-endpoints: heroku-nel="https://nel.heroku.com/reports?s=dgsPGCO7Nz7PHqN4dkBRuIuUrcuhMCA%2FudeI%2FSWuF9k%3D&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&ts=1766595200"
+Server: cloudflare
+vary: Origin, X-HTTP-Method-Override, Accept-Encoding
+via: 2.0 heroku-router
+x-content-type-options: nosniff
+x-powered-by: Express
+x-ratelimit-limit: 1000
+x-ratelimit-remaining: 994
+x-ratelimit-reset: 1766595208
+cf-cache-status: DYNAMIC
+CF-RAY: 9b319d41ec5be15c-MRS
+alt-svc: h3=":443"; ma=86400
+
+{
+    "website": "www.sigit-wardhana.info",
+    "address": {
+        "zipcode": "21815",
+        "city": "Lumajang",
+        "street": "Jl. MH. Thamrin No. 93"
+    },
+    "phone": "+628542379967",
+    "name": "Danang Ferdian",
+    "company": {
+        "bs": "recontextualize holistic models",
+        "catchPhrase": "Organized asynchronous archive",
+        "name": "Budiman Group"
+    },
+    "email": "budi.pradhana@gmail.com",
+    "username": "umarwardhana",
+    "id": 11
+}
+HTTP/1.1 201 Created
+Date: Wed, 24 Dec 2025 16:53:20 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 431
+Connection: keep-alive
+access-control-allow-credentials: true
+access-control-expose-headers: Location
+Cache-Control: no-cache
+etag: W/"1af-HQ6koDBGnGlMStasW1S3gDzmfrU"
+expires: -1
+location: https://jsonplaceholder.typicode.com/users/11
+nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+pragma: no-cache
+report-to: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=dgsPGCO7Nz7PHqN4dkBRuIuUrcuhMCA%2FudeI%2FSWuF9k%3D\u0026sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d\u0026ts=1766595200"}],"max_age":3600}
+reporting-endpoints: heroku-nel="https://nel.heroku.com/reports?s=dgsPGCO7Nz7PHqN4dkBRuIuUrcuhMCA%2FudeI%2FSWuF9k%3D&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&ts=1766595200"
+Server: cloudflare
+vary: Origin, X-HTTP-Method-Override, Accept-Encoding
+via: 2.0 heroku-router
+x-content-type-options: nosniff
+x-powered-by: Express
+x-ratelimit-limit: 1000
+x-ratelimit-remaining: 994
+x-ratelimit-reset: 1766595208
+cf-cache-status: DYNAMIC
+CF-RAY: 9b319d41ec5be15c-MRS
+alt-svc: h3=":443"; ma=86400
+
+{
+    "website": "www.sigit-wardhana.info",
+    "address": {
+        "zipcode": "21815",
+        "city": "Lumajang",
+        "street": "Jl. MH. Thamrin No. 93"
+    },
+    "phone": "+628542379967",
+    "name": "Danang Ferdian",
+    "company": {
+        "bs": "recontextualize holistic models",
+        "catchPhrase": "Organized asynchronous archive",
+        "name": "Budiman Group"
+    },
+    "email": "budi.pradhana@gmail.com",
+    "username": "umarwardhana",
+    "id": 11
+}
+]]></system-out>
+  </testcase>
+  <testcase name="testCreateUserWithFakerData" classname="com.pratikum.rest.tests.FakerDataTests" time="0.687">
+    <system-out><![CDATA[Generated User Data:
+Name: Ruslan Djunaedi
+Username: davidfachri
+Email: prima.lesmana@hotmail.com
+Request method:	POST
+Request URI:	https://jsonplaceholder.typicode.com/users
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "website": "www.iwan-yudhiswara.io",
+    "address": {
+        "zipcode": "74226",
+        "city": "Sijunjung",
+        "street": "Jl. Rasuna Said No. 37"
+    },
+    "phone": "085563127373",
+    "name": "Ruslan Djunaedi",
+    "company": {
+        "catchPhrase": "Stand-alone context-sensitive hub",
+        "name": "Januar, Ilham and Indragiri"
+    },
+    "email": "prima.lesmana@hotmail.com",
+    "username": "davidfachri"
+}
+Request method:	POST
+Request URI:	https://jsonplaceholder.typicode.com/users
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "website": "www.iwan-yudhiswara.io",
+    "address": {
+        "zipcode": "74226",
+        "city": "Sijunjung",
+        "street": "Jl. Rasuna Said No. 37"
+    },
+    "phone": "085563127373",
+    "name": "Ruslan Djunaedi",
+    "company": {
+        "catchPhrase": "Stand-alone context-sensitive hub",
+        "name": "Januar, Ilham and Indragiri"
+    },
+    "email": "prima.lesmana@hotmail.com",
+    "username": "davidfachri"
+}
+HTTP/1.1 201 Created
+Date: Wed, 24 Dec 2025 16:53:21 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 404
+Connection: keep-alive
+access-control-allow-credentials: true
+access-control-expose-headers: Location
+Cache-Control: no-cache
+etag: W/"194-rWGYnos10lAeyEocIYO5/BnTI4Q"
+expires: -1
+location: https://jsonplaceholder.typicode.com/users/11
+nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+pragma: no-cache
+report-to: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=FxQwe21PHWWLktTBbtWWwRRCQ8dZrwraa5aupYHvfn4%3D\u0026sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d\u0026ts=1766595201"}],"max_age":3600}
+reporting-endpoints: heroku-nel="https://nel.heroku.com/reports?s=FxQwe21PHWWLktTBbtWWwRRCQ8dZrwraa5aupYHvfn4%3D&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&ts=1766595201"
+Server: cloudflare
+vary: Origin, X-HTTP-Method-Override, Accept-Encoding
+via: 2.0 heroku-router
+x-content-type-options: nosniff
+x-powered-by: Express
+x-ratelimit-limit: 1000
+x-ratelimit-remaining: 993
+x-ratelimit-reset: 1766595208
+cf-cache-status: DYNAMIC
+CF-RAY: 9b319d464eafe17f-MRS
+alt-svc: h3=":443"; ma=86400
+
+{
+    "website": "www.iwan-yudhiswara.io",
+    "address": {
+        "zipcode": "74226",
+        "city": "Sijunjung",
+        "street": "Jl. Rasuna Said No. 37"
+    },
+    "phone": "085563127373",
+    "name": "Ruslan Djunaedi",
+    "company": {
+        "catchPhrase": "Stand-alone context-sensitive hub",
+        "name": "Januar, Ilham and Indragiri"
+    },
+    "email": "prima.lesmana@hotmail.com",
+    "username": "davidfachri",
+    "id": 11
+}
+HTTP/1.1 201 Created
+Date: Wed, 24 Dec 2025 16:53:21 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 404
+Connection: keep-alive
+access-control-allow-credentials: true
+access-control-expose-headers: Location
+Cache-Control: no-cache
+etag: W/"194-rWGYnos10lAeyEocIYO5/BnTI4Q"
+expires: -1
+location: https://jsonplaceholder.typicode.com/users/11
+nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+pragma: no-cache
+report-to: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=FxQwe21PHWWLktTBbtWWwRRCQ8dZrwraa5aupYHvfn4%3D\u0026sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d\u0026ts=1766595201"}],"max_age":3600}
+reporting-endpoints: heroku-nel="https://nel.heroku.com/reports?s=FxQwe21PHWWLktTBbtWWwRRCQ8dZrwraa5aupYHvfn4%3D&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&ts=1766595201"
+Server: cloudflare
+vary: Origin, X-HTTP-Method-Override, Accept-Encoding
+via: 2.0 heroku-router
+x-content-type-options: nosniff
+x-powered-by: Express
+x-ratelimit-limit: 1000
+x-ratelimit-remaining: 993
+x-ratelimit-reset: 1766595208
+cf-cache-status: DYNAMIC
+CF-RAY: 9b319d464eafe17f-MRS
+alt-svc: h3=":443"; ma=86400
+
+{
+    "website": "www.iwan-yudhiswara.io",
+    "address": {
+        "zipcode": "74226",
+        "city": "Sijunjung",
+        "street": "Jl. Rasuna Said No. 37"
+    },
+    "phone": "085563127373",
+    "name": "Ruslan Djunaedi",
+    "company": {
+        "catchPhrase": "Stand-alone context-sensitive hub",
+        "name": "Januar, Ilham and Indragiri"
+    },
+    "email": "prima.lesmana@hotmail.com",
+    "username": "davidfachri",
+    "id": 11
+}
+]]></system-out>
+  </testcase>
+  <testcase name="testCreateUserWithIndonesianData" classname="com.pratikum.rest.tests.FakerDataTests" time="0.707">
+    <system-out><![CDATA[Indonesian User Data:
+Nama: Endang Darmawan
+Email: andi.pradipta@yahoo.com
+Request method:	POST
+Request URI:	https://jsonplaceholder.typicode.com/users
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "website": "www.tito-hendrawinata.org",
+    "address": {
+        "zipcode": "02635",
+        "city": "Batu Bara",
+        "street": "Jl. Juanda No. 06"
+    },
+    "phone": "089570465788",
+    "name": "Endang Darmawan",
+    "company": {
+        "catchPhrase": "Business-focused 4th generation approach",
+        "name": "Junaedi-Virgiawan"
+    },
+    "email": "andi.pradipta@yahoo.com",
+    "username": "virarusli"
+}
+Request method:	POST
+Request URI:	https://jsonplaceholder.typicode.com/users
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "website": "www.tito-hendrawinata.org",
+    "address": {
+        "zipcode": "02635",
+        "city": "Batu Bara",
+        "street": "Jl. Juanda No. 06"
+    },
+    "phone": "089570465788",
+    "name": "Endang Darmawan",
+    "company": {
+        "catchPhrase": "Business-focused 4th generation approach",
+        "name": "Junaedi-Virgiawan"
+    },
+    "email": "andi.pradipta@yahoo.com",
+    "username": "virarusli"
+}
+HTTP/1.1 201 Created
+Date: Wed, 24 Dec 2025 16:53:21 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 395
+Connection: keep-alive
+access-control-allow-credentials: true
+access-control-expose-headers: Location
+Cache-Control: no-cache
+etag: W/"18b-hEgyJqx8G1/NtZS4tAzAX0JdBCg"
+expires: -1
+location: https://jsonplaceholder.typicode.com/users/11
+nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+pragma: no-cache
+report-to: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=FxQwe21PHWWLktTBbtWWwRRCQ8dZrwraa5aupYHvfn4%3D\u0026sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d\u0026ts=1766595201"}],"max_age":3600}
+reporting-endpoints: heroku-nel="https://nel.heroku.com/reports?s=FxQwe21PHWWLktTBbtWWwRRCQ8dZrwraa5aupYHvfn4%3D&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&ts=1766595201"
+Server: cloudflare
+vary: Origin, X-HTTP-Method-Override, Accept-Encoding
+via: 2.0 heroku-router
+x-content-type-options: nosniff
+x-powered-by: Express
+x-ratelimit-limit: 1000
+x-ratelimit-remaining: 992
+x-ratelimit-reset: 1766595208
+cf-cache-status: DYNAMIC
+CF-RAY: 9b319d4a998311bc-MRS
+alt-svc: h3=":443"; ma=86400
+
+{
+    "website": "www.tito-hendrawinata.org",
+    "address": {
+        "zipcode": "02635",
+        "city": "Batu Bara",
+        "street": "Jl. Juanda No. 06"
+    },
+    "phone": "089570465788",
+    "name": "Endang Darmawan",
+    "company": {
+        "catchPhrase": "Business-focused 4th generation approach",
+        "name": "Junaedi-Virgiawan"
+    },
+    "email": "andi.pradipta@yahoo.com",
+    "username": "virarusli",
+    "id": 11
+}
+HTTP/1.1 201 Created
+Date: Wed, 24 Dec 2025 16:53:21 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 395
+Connection: keep-alive
+access-control-allow-credentials: true
+access-control-expose-headers: Location
+Cache-Control: no-cache
+etag: W/"18b-hEgyJqx8G1/NtZS4tAzAX0JdBCg"
+expires: -1
+location: https://jsonplaceholder.typicode.com/users/11
+nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+pragma: no-cache
+report-to: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=FxQwe21PHWWLktTBbtWWwRRCQ8dZrwraa5aupYHvfn4%3D\u0026sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d\u0026ts=1766595201"}],"max_age":3600}
+reporting-endpoints: heroku-nel="https://nel.heroku.com/reports?s=FxQwe21PHWWLktTBbtWWwRRCQ8dZrwraa5aupYHvfn4%3D&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&ts=1766595201"
+Server: cloudflare
+vary: Origin, X-HTTP-Method-Override, Accept-Encoding
+via: 2.0 heroku-router
+x-content-type-options: nosniff
+x-powered-by: Express
+x-ratelimit-limit: 1000
+x-ratelimit-remaining: 992
+x-ratelimit-reset: 1766595208
+cf-cache-status: DYNAMIC
+CF-RAY: 9b319d4a998311bc-MRS
+alt-svc: h3=":443"; ma=86400
+
+{
+    "website": "www.tito-hendrawinata.org",
+    "address": {
+        "zipcode": "02635",
+        "city": "Batu Bara",
+        "street": "Jl. Juanda No. 06"
+    },
+    "phone": "089570465788",
+    "name": "Endang Darmawan",
+    "company": {
+        "catchPhrase": "Business-focused 4th generation approach",
+        "name": "Junaedi-Virgiawan"
+    },
+    "email": "andi.pradipta@yahoo.com",
+    "username": "virarusli",
+    "id": 11
+}
+]]></system-out>
+  </testcase>
+  <testcase name="testCreateUserWithValidData" classname="com.pratikum.rest.tests.FakerDataTests" time="0.704">
+    <system-out><![CDATA[Valid User Data:
+Name: Test User 431
+Username: user297
+Email: kemal.zulkarnain@hotmail.com
+Request method:	POST
+Request URI:	https://jsonplaceholder.typicode.com/users
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Test User 431",
+    "email": "kemal.zulkarnain@hotmail.com",
+    "username": "user297"
+}
+Request method:	POST
+Request URI:	https://jsonplaceholder.typicode.com/users
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Test User 431",
+    "email": "kemal.zulkarnain@hotmail.com",
+    "username": "user297"
+}
+HTTP/1.1 201 Created
+Date: Wed, 24 Dec 2025 16:53:22 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 109
+Connection: keep-alive
+access-control-allow-credentials: true
+access-control-expose-headers: Location
+Cache-Control: no-cache
+etag: W/"6d-20btUotQR+aGjQQBJFOOivB0ZrM"
+expires: -1
+location: https://jsonplaceholder.typicode.com/users/11
+nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+pragma: no-cache
+report-to: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=HhkLZInxbWWpRhL9%2Bzif7%2FKhdOTThz4lssAz%2BrMEY6M%3D\u0026sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d\u0026ts=1766595202"}],"max_age":3600}
+reporting-endpoints: heroku-nel="https://nel.heroku.com/reports?s=HhkLZInxbWWpRhL9%2Bzif7%2FKhdOTThz4lssAz%2BrMEY6M%3D&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&ts=1766595202"
+Server: cloudflare
+vary: Origin, X-HTTP-Method-Override, Accept-Encoding
+via: 2.0 heroku-router
+x-content-type-options: nosniff
+x-powered-by: Express
+x-ratelimit-limit: 1000
+x-ratelimit-remaining: 991
+x-ratelimit-reset: 1766595208
+cf-cache-status: DYNAMIC
+CF-RAY: 9b319d4f1a6d88ed-MRS
+alt-svc: h3=":443"; ma=86400
+
+{
+    "name": "Test User 431",
+    "email": "kemal.zulkarnain@hotmail.com",
+    "username": "user297",
+    "id": 11
+}
+HTTP/1.1 201 Created
+Date: Wed, 24 Dec 2025 16:53:22 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 109
+Connection: keep-alive
+access-control-allow-credentials: true
+access-control-expose-headers: Location
+Cache-Control: no-cache
+etag: W/"6d-20btUotQR+aGjQQBJFOOivB0ZrM"
+expires: -1
+location: https://jsonplaceholder.typicode.com/users/11
+nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+pragma: no-cache
+report-to: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=HhkLZInxbWWpRhL9%2Bzif7%2FKhdOTThz4lssAz%2BrMEY6M%3D\u0026sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d\u0026ts=1766595202"}],"max_age":3600}
+reporting-endpoints: heroku-nel="https://nel.heroku.com/reports?s=HhkLZInxbWWpRhL9%2Bzif7%2FKhdOTThz4lssAz%2BrMEY6M%3D&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&ts=1766595202"
+Server: cloudflare
+vary: Origin, X-HTTP-Method-Override, Accept-Encoding
+via: 2.0 heroku-router
+x-content-type-options: nosniff
+x-powered-by: Express
+x-ratelimit-limit: 1000
+x-ratelimit-remaining: 991
+x-ratelimit-reset: 1766595208
+cf-cache-status: DYNAMIC
+CF-RAY: 9b319d4f1a6d88ed-MRS
+alt-svc: h3=":443"; ma=86400
+
+{
+    "name": "Test User 431",
+    "email": "kemal.zulkarnain@hotmail.com",
+    "username": "user297",
+    "id": 11
+}
+]]></system-out>
+  </testcase>
+  <testcase name="testDataVariationWithFaker" classname="com.pratikum.rest.tests.FakerDataTests" time="1.959">
+    <system-out><![CDATA[Test Type: basic
+User: Rosa Satria
+Request method:	POST
+Request URI:	https://jsonplaceholder.typicode.com/users
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "website": "www.effendi-nurdiansyah.net",
+    "address": {
+        "zipcode": "17762",
+        "city": "Pati",
+        "street": "Jl. Juanda No. 83"
+    },
+    "phone": "+628016782406",
+    "name": "Rosa Satria",
+    "company": {
+        "catchPhrase": "Pre-emptive asymmetric archive",
+        "name": "Setiawan-Wardhana"
+    },
+    "email": "choirul.fachriawan@yahoo.com",
+    "username": "arifabdullah"
+}
+Request method:	POST
+Request URI:	https://jsonplaceholder.typicode.com/users
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "website": "www.effendi-nurdiansyah.net",
+    "address": {
+        "zipcode": "17762",
+        "city": "Pati",
+        "street": "Jl. Juanda No. 83"
+    },
+    "phone": "+628016782406",
+    "name": "Rosa Satria",
+    "company": {
+        "catchPhrase": "Pre-emptive asymmetric archive",
+        "name": "Setiawan-Wardhana"
+    },
+    "email": "choirul.fachriawan@yahoo.com",
+    "username": "arifabdullah"
+}
+HTTP/1.1 201 Created
+Date: Wed, 24 Dec 2025 16:53:23 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 387
+Connection: keep-alive
+access-control-allow-credentials: true
+access-control-expose-headers: Location
+Cache-Control: no-cache
+etag: W/"183-wHSZr2qfW69viZyPhRwGfyp51jU"
+expires: -1
+location: https://jsonplaceholder.typicode.com/users/11
+nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+pragma: no-cache
+report-to: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=qJBb4g825nuYHWEx3zNWDtfT93bZx23X56SxbWO9Ras%3D\u0026sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d\u0026ts=1766595203"}],"max_age":3600}
+reporting-endpoints: heroku-nel="https://nel.heroku.com/reports?s=qJBb4g825nuYHWEx3zNWDtfT93bZx23X56SxbWO9Ras%3D&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&ts=1766595203"
+Server: cloudflare
+vary: Origin, X-HTTP-Method-Override, Accept-Encoding
+via: 2.0 heroku-router
+x-content-type-options: nosniff
+x-powered-by: Express
+x-ratelimit-limit: 1000
+x-ratelimit-remaining: 990
+x-ratelimit-reset: 1766595208
+cf-cache-status: DYNAMIC
+CF-RAY: 9b319d534867e224-MRS
+alt-svc: h3=":443"; ma=86400
+
+{
+    "website": "www.effendi-nurdiansyah.net",
+    "address": {
+        "zipcode": "17762",
+        "city": "Pati",
+        "street": "Jl. Juanda No. 83"
+    },
+    "phone": "+628016782406",
+    "name": "Rosa Satria",
+    "company": {
+        "catchPhrase": "Pre-emptive asymmetric archive",
+        "name": "Setiawan-Wardhana"
+    },
+    "email": "choirul.fachriawan@yahoo.com",
+    "username": "arifabdullah",
+    "id": 11
+}
+HTTP/1.1 201 Created
+Date: Wed, 24 Dec 2025 16:53:23 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 387
+Connection: keep-alive
+access-control-allow-credentials: true
+access-control-expose-headers: Location
+Cache-Control: no-cache
+etag: W/"183-wHSZr2qfW69viZyPhRwGfyp51jU"
+expires: -1
+location: https://jsonplaceholder.typicode.com/users/11
+nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+pragma: no-cache
+report-to: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=qJBb4g825nuYHWEx3zNWDtfT93bZx23X56SxbWO9Ras%3D\u0026sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d\u0026ts=1766595203"}],"max_age":3600}
+reporting-endpoints: heroku-nel="https://nel.heroku.com/reports?s=qJBb4g825nuYHWEx3zNWDtfT93bZx23X56SxbWO9Ras%3D&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&ts=1766595203"
+Server: cloudflare
+vary: Origin, X-HTTP-Method-Override, Accept-Encoding
+via: 2.0 heroku-router
+x-content-type-options: nosniff
+x-powered-by: Express
+x-ratelimit-limit: 1000
+x-ratelimit-remaining: 990
+x-ratelimit-reset: 1766595208
+cf-cache-status: DYNAMIC
+CF-RAY: 9b319d534867e224-MRS
+alt-svc: h3=":443"; ma=86400
+
+{
+    "website": "www.effendi-nurdiansyah.net",
+    "address": {
+        "zipcode": "17762",
+        "city": "Pati",
+        "street": "Jl. Juanda No. 83"
+    },
+    "phone": "+628016782406",
+    "name": "Rosa Satria",
+    "company": {
+        "catchPhrase": "Pre-emptive asymmetric archive",
+        "name": "Setiawan-Wardhana"
+    },
+    "email": "choirul.fachriawan@yahoo.com",
+    "username": "arifabdullah",
+    "id": 11
+}
+Test Type: with-address
+User: Chandra Oktavian
+Request method:	POST
+Request URI:	https://jsonplaceholder.typicode.com/users
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "website": "www.merry-oktara.co",
+    "address": {
+        "zipcode": "85100",
+        "city": "Belitung",
+        "street": "Jl. Gajahmada No. 36"
+    },
+    "phone": "0898-2306-2486",
+    "name": "Chandra Oktavian",
+    "company": {
+        "catchPhrase": "Optimized interactive software",
+        "name": "Taslim, Erik and Pradipta"
+    },
+    "email": "rudi.cahyadi@gmail.com",
+    "username": "viviwijaya"
+}
+Request method:	POST
+Request URI:	https://jsonplaceholder.typicode.com/users
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "website": "www.merry-oktara.co",
+    "address": {
+        "zipcode": "85100",
+        "city": "Belitung",
+        "street": "Jl. Gajahmada No. 36"
+    },
+    "phone": "0898-2306-2486",
+    "name": "Chandra Oktavian",
+    "company": {
+        "catchPhrase": "Optimized interactive software",
+        "name": "Taslim, Erik and Pradipta"
+    },
+    "email": "rudi.cahyadi@gmail.com",
+    "username": "viviwijaya"
+}
+HTTP/1.1 201 Created
+Date: Wed, 24 Dec 2025 16:53:23 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 392
+Connection: keep-alive
+access-control-allow-credentials: true
+access-control-expose-headers: Location
+Cache-Control: no-cache
+etag: W/"188-HhgFj+J0IQA5AcdgtVij81s4j44"
+expires: -1
+location: https://jsonplaceholder.typicode.com/users/11
+nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+pragma: no-cache
+report-to: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=qJBb4g825nuYHWEx3zNWDtfT93bZx23X56SxbWO9Ras%3D\u0026sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d\u0026ts=1766595203"}],"max_age":3600}
+reporting-endpoints: heroku-nel="https://nel.heroku.com/reports?s=qJBb4g825nuYHWEx3zNWDtfT93bZx23X56SxbWO9Ras%3D&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&ts=1766595203"
+Server: cloudflare
+vary: Origin, X-HTTP-Method-Override, Accept-Encoding
+via: 2.0 heroku-router
+x-content-type-options: nosniff
+x-powered-by: Express
+x-ratelimit-limit: 1000
+x-ratelimit-remaining: 989
+x-ratelimit-reset: 1766595208
+cf-cache-status: DYNAMIC
+CF-RAY: 9b319d575bfa3f1d-MRS
+alt-svc: h3=":443"; ma=86400
+
+{
+    "website": "www.merry-oktara.co",
+    "address": {
+        "zipcode": "85100",
+        "city": "Belitung",
+        "street": "Jl. Gajahmada No. 36"
+    },
+    "phone": "0898-2306-2486",
+    "name": "Chandra Oktavian",
+    "company": {
+        "catchPhrase": "Optimized interactive software",
+        "name": "Taslim, Erik and Pradipta"
+    },
+    "email": "rudi.cahyadi@gmail.com",
+    "username": "viviwijaya",
+    "id": 11
+}
+HTTP/1.1 201 Created
+Date: Wed, 24 Dec 2025 16:53:23 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 392
+Connection: keep-alive
+access-control-allow-credentials: true
+access-control-expose-headers: Location
+Cache-Control: no-cache
+etag: W/"188-HhgFj+J0IQA5AcdgtVij81s4j44"
+expires: -1
+location: https://jsonplaceholder.typicode.com/users/11
+nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+pragma: no-cache
+report-to: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=qJBb4g825nuYHWEx3zNWDtfT93bZx23X56SxbWO9Ras%3D\u0026sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d\u0026ts=1766595203"}],"max_age":3600}
+reporting-endpoints: heroku-nel="https://nel.heroku.com/reports?s=qJBb4g825nuYHWEx3zNWDtfT93bZx23X56SxbWO9Ras%3D&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&ts=1766595203"
+Server: cloudflare
+vary: Origin, X-HTTP-Method-Override, Accept-Encoding
+via: 2.0 heroku-router
+x-content-type-options: nosniff
+x-powered-by: Express
+x-ratelimit-limit: 1000
+x-ratelimit-remaining: 989
+x-ratelimit-reset: 1766595208
+cf-cache-status: DYNAMIC
+CF-RAY: 9b319d575bfa3f1d-MRS
+alt-svc: h3=":443"; ma=86400
+
+{
+    "website": "www.merry-oktara.co",
+    "address": {
+        "zipcode": "85100",
+        "city": "Belitung",
+        "street": "Jl. Gajahmada No. 36"
+    },
+    "phone": "0898-2306-2486",
+    "name": "Chandra Oktavian",
+    "company": {
+        "catchPhrase": "Optimized interactive software",
+        "name": "Taslim, Erik and Pradipta"
+    },
+    "email": "rudi.cahyadi@gmail.com",
+    "username": "viviwijaya",
+    "id": 11
+}
+Test Type: with-company
+User: Unang Tjahjadi
+Request method:	POST
+Request URI:	https://jsonplaceholder.typicode.com/users
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "website": "www.yanuar-lazuardi.info",
+    "address": {
+        "zipcode": "50284",
+        "city": "Hulu Sungai Selatan",
+        "street": "Jl. Gatot Soebroto No. 65"
+    },
+    "phone": "0879-7702-6650",
+    "name": "Unang Tjahjadi",
+    "company": {
+        "catchPhrase": "Ergonomic actuating focus group",
+        "name": "Indrajaya Inc"
+    },
+    "email": "diah.thamrin@hotmail.com",
+    "username": "anitasaputra"
+}
+Request method:	POST
+Request URI:	https://jsonplaceholder.typicode.com/users
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "website": "www.yanuar-lazuardi.info",
+    "address": {
+        "zipcode": "50284",
+        "city": "Hulu Sungai Selatan",
+        "street": "Jl. Gatot Soebroto No. 65"
+    },
+    "phone": "0879-7702-6650",
+    "name": "Unang Tjahjadi",
+    "company": {
+        "catchPhrase": "Ergonomic actuating focus group",
+        "name": "Indrajaya Inc"
+    },
+    "email": "diah.thamrin@hotmail.com",
+    "username": "anitasaputra"
+}
+HTTP/1.1 201 Created
+Date: Wed, 24 Dec 2025 16:53:24 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 404
+Connection: keep-alive
+access-control-allow-credentials: true
+access-control-expose-headers: Location
+Cache-Control: no-cache
+etag: W/"194-Yx/JDVo+qZgm854dX6/GH+r2W94"
+expires: -1
+location: https://jsonplaceholder.typicode.com/users/11
+nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+pragma: no-cache
+report-to: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=7Glnjmc04N15T%2BHXswDLT%2B1nxD1mFm9E93Jv4wP0Iiw%3D\u0026sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d\u0026ts=1766595204"}],"max_age":3600}
+reporting-endpoints: heroku-nel="https://nel.heroku.com/reports?s=7Glnjmc04N15T%2BHXswDLT%2B1nxD1mFm9E93Jv4wP0Iiw%3D&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&ts=1766595204"
+Server: cloudflare
+vary: Origin, X-HTTP-Method-Override, Accept-Encoding
+via: 2.0 heroku-router
+x-content-type-options: nosniff
+x-powered-by: Express
+x-ratelimit-limit: 1000
+x-ratelimit-remaining: 988
+x-ratelimit-reset: 1766595208
+cf-cache-status: DYNAMIC
+CF-RAY: 9b319d5b6befe1d0-MRS
+alt-svc: h3=":443"; ma=86400
+
+{
+    "website": "www.yanuar-lazuardi.info",
+    "address": {
+        "zipcode": "50284",
+        "city": "Hulu Sungai Selatan",
+        "street": "Jl. Gatot Soebroto No. 65"
+    },
+    "phone": "0879-7702-6650",
+    "name": "Unang Tjahjadi",
+    "company": {
+        "catchPhrase": "Ergonomic actuating focus group",
+        "name": "Indrajaya Inc"
+    },
+    "email": "diah.thamrin@hotmail.com",
+    "username": "anitasaputra",
+    "id": 11
+}
+HTTP/1.1 201 Created
+Date: Wed, 24 Dec 2025 16:53:24 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 404
+Connection: keep-alive
+access-control-allow-credentials: true
+access-control-expose-headers: Location
+Cache-Control: no-cache
+etag: W/"194-Yx/JDVo+qZgm854dX6/GH+r2W94"
+expires: -1
+location: https://jsonplaceholder.typicode.com/users/11
+nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+pragma: no-cache
+report-to: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=7Glnjmc04N15T%2BHXswDLT%2B1nxD1mFm9E93Jv4wP0Iiw%3D\u0026sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d\u0026ts=1766595204"}],"max_age":3600}
+reporting-endpoints: heroku-nel="https://nel.heroku.com/reports?s=7Glnjmc04N15T%2BHXswDLT%2B1nxD1mFm9E93Jv4wP0Iiw%3D&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&ts=1766595204"
+Server: cloudflare
+vary: Origin, X-HTTP-Method-Override, Accept-Encoding
+via: 2.0 heroku-router
+x-content-type-options: nosniff
+x-powered-by: Express
+x-ratelimit-limit: 1000
+x-ratelimit-remaining: 988
+x-ratelimit-reset: 1766595208
+cf-cache-status: DYNAMIC
+CF-RAY: 9b319d5b6befe1d0-MRS
+alt-svc: h3=":443"; ma=86400
+
+{
+    "website": "www.yanuar-lazuardi.info",
+    "address": {
+        "zipcode": "50284",
+        "city": "Hulu Sungai Selatan",
+        "street": "Jl. Gatot Soebroto No. 65"
+    },
+    "phone": "0879-7702-6650",
+    "name": "Unang Tjahjadi",
+    "company": {
+        "catchPhrase": "Ergonomic actuating focus group",
+        "name": "Indrajaya Inc"
+    },
+    "email": "diah.thamrin@hotmail.com",
+    "username": "anitasaputra",
+    "id": 11
+}
+]]></system-out>
+  </testcase>
+</testsuite>

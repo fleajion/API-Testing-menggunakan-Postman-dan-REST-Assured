@@ -1,0 +1,1172 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-API_Testing_Suite" class="navigator-link">
+              <span class="suite-name border-passed">API Testing Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-API_Testing_Suite" class="navigator-link ">
+                    <span>F:\zidanyb-pratikum-pengujian-perangkat-lunak\REST Assured Testing\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-API_Testing_Suite" class="navigator-link ">
+                    <span class="test-stats">4 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-API_Testing_Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-API_Testing_Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-API_Testing_Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-API_Testing_Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-API_Testing_Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">37 methods,   37 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-API_Testing_Suite" class="hide-methods passed suite-API_Testing_Suite"> (hide)</a> <!-- hide-methods passed suite-API_Testing_Suite -->
+                      <a href="#" panel-name="suite-API_Testing_Suite" class="show-methods passed suite-API_Testing_Suite"> (show)</a> <!-- show-methods passed suite-API_Testing_Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-API_Testing_Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-API_Testing_Suite" title="com.pratikum.rest.tests.FakerDataTests" class="method navigator-link" hash-for-method="testCreateMultipleUsersWithFaker">testCreateMultipleUsersWithFaker</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-API_Testing_Suite" title="com.pratikum.rest.tests.AuthenticationTests" class="method navigator-link" hash-for-method="testCreatePostWithoutAuth">testCreatePostWithoutAuth</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-API_Testing_Suite" title="com.pratikum.rest.tests.UserAPITests" class="method navigator-link" hash-for-method="testCreateUser">testCreateUser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-API_Testing_Suite" title="com.pratikum.rest.tests.FakerDataTests" class="method navigator-link" hash-for-method="testCreateUserWithAddress">testCreateUserWithAddress</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-API_Testing_Suite" title="com.pratikum.rest.tests.FakerDataTests" class="method navigator-link" hash-for-method="testCreateUserWithCompanyData">testCreateUserWithCompanyData</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-API_Testing_Suite" title="com.pratikum.rest.tests.AdvancedAPITests" class="method navigator-link" hash-for-method="testCreateUserWithEmptyBody">testCreateUserWithEmptyBody</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-API_Testing_Suite" title="com.pratikum.rest.tests.FakerDataTests" class="method navigator-link" hash-for-method="testCreateUserWithFakerData">testCreateUserWithFakerData</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-API_Testing_Suite" title="com.pratikum.rest.tests.AdvancedAPITests" class="method navigator-link" hash-for-method="testCreateUserWithFakerJson">testCreateUserWithFakerJson</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-API_Testing_Suite" title="com.pratikum.rest.tests.AdvancedAPITests" class="method navigator-link" hash-for-method="testCreateUserWithHashMap">testCreateUserWithHashMap</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-API_Testing_Suite" title="com.pratikum.rest.tests.FakerDataTests" class="method navigator-link" hash-for-method="testCreateUserWithIndonesianData">testCreateUserWithIndonesianData</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-API_Testing_Suite" title="com.pratikum.rest.tests.AdvancedAPITests" class="method navigator-link" hash-for-method="testCreateUserWithInvalidJSON">testCreateUserWithInvalidJSON</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-API_Testing_Suite" title="com.pratikum.rest.tests.AdvancedAPITests" class="method navigator-link" hash-for-method="testCreateUserWithNullValues">testCreateUserWithNullValues</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-API_Testing_Suite" title="com.pratikum.rest.tests.FakerDataTests" class="method navigator-link" hash-for-method="testCreateUserWithValidData">testCreateUserWithValidData</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-API_Testing_Suite" title="com.pratikum.rest.tests.AdvancedAPITests" class="method navigator-link" hash-for-method="testCreateUserWithVeryLongName">testCreateUserWithVeryLongName</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-API_Testing_Suite" title="com.pratikum.rest.tests.AdvancedAPITests" class="method navigator-link" hash-for-method="testDataDrivenWithFaker">testDataDrivenWithFaker</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-API_Testing_Suite" title="com.pratikum.rest.tests.FakerDataTests" class="method navigator-link" hash-for-method="testDataVariationWithFaker">testDataVariationWithFaker</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-API_Testing_Suite" title="com.pratikum.rest.tests.UserAPITests" class="method navigator-link" hash-for-method="testDeleteUser">testDeleteUser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-API_Testing_Suite" title="com.pratikum.rest.tests.AuthenticationTests" class="method navigator-link" hash-for-method="testFailedAuthenticationMock">testFailedAuthenticationMock</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-API_Testing_Suite" title="com.pratikum.rest.tests.UserAPITests" class="method navigator-link" hash-for-method="testGetAllUsers">testGetAllUsers</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-API_Testing_Suite" title="com.pratikum.rest.tests.AdvancedAPITests" class="method navigator-link" hash-for-method="testGetPostsForUser">testGetPostsForUser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-API_Testing_Suite" title="com.pratikum.rest.tests.UserAPITests" class="method navigator-link" hash-for-method="testGetUserById">testGetUserById</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-API_Testing_Suite" title="com.pratikum.rest.tests.UserAPITests" class="method navigator-link" hash-for-method="testGetUserNotFound">testGetUserNotFound</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-API_Testing_Suite" title="com.pratikum.rest.tests.AdvancedAPITests" class="method navigator-link" hash-for-method="testGetUserWithInvalidId">testGetUserWithInvalidId</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-API_Testing_Suite" title="com.pratikum.rest.tests.AdvancedAPITests" class="method navigator-link" hash-for-method="testMultipleUsersWithDataProvider(4)">testMultipleUsersWithDataProvider(4)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-API_Testing_Suite" title="com.pratikum.rest.tests.AdvancedAPITests" class="method navigator-link" hash-for-method="testMultipleUsersWithDataProvider(3)">testMultipleUsersWithDataProvider(3)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-API_Testing_Suite" title="com.pratikum.rest.tests.AdvancedAPITests" class="method navigator-link" hash-for-method="testMultipleUsersWithDataProvider(5)">testMultipleUsersWithDataProvider(5)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-API_Testing_Suite" title="com.pratikum.rest.tests.AdvancedAPITests" class="method navigator-link" hash-for-method="testMultipleUsersWithDataProvider(1)">testMultipleUsersWithDataProvider(1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-API_Testing_Suite" title="com.pratikum.rest.tests.AdvancedAPITests" class="method navigator-link" hash-for-method="testMultipleUsersWithDataProvider(2)">testMultipleUsersWithDataProvider(2)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-API_Testing_Suite" title="com.pratikum.rest.tests.AdvancedAPITests" class="method navigator-link" hash-for-method="testPaginationFunctionality">testPaginationFunctionality</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-API_Testing_Suite" title="com.pratikum.rest.tests.AuthenticationTests" class="method navigator-link" hash-for-method="testRegResAPIAvailability">testRegResAPIAvailability</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-API_Testing_Suite" title="com.pratikum.rest.tests.AuthenticationTests" class="method navigator-link" hash-for-method="testResponseHeaders">testResponseHeaders</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-API_Testing_Suite" title="com.pratikum.rest.tests.AdvancedAPITests" class="method navigator-link" hash-for-method="testResponseHeadersValidation">testResponseHeadersValidation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-API_Testing_Suite" title="com.pratikum.rest.tests.AdvancedAPITests" class="method navigator-link" hash-for-method="testResponseTimePerformance">testResponseTimePerformance</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-API_Testing_Suite" title="com.pratikum.rest.tests.AuthenticationTests" class="method navigator-link" hash-for-method="testSuccessfulLoginMock">testSuccessfulLoginMock</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-API_Testing_Suite" title="com.pratikum.rest.tests.UserAPITests" class="method navigator-link" hash-for-method="testUpdateUser">testUpdateUser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-API_Testing_Suite" title="com.pratikum.rest.tests.AdvancedAPITests" class="method navigator-link" hash-for-method="testUpdateUserWithPartialData">testUpdateUserWithPartialData</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-API_Testing_Suite" title="com.pratikum.rest.tests.AuthenticationTests" class="method navigator-link" hash-for-method="testWithMalformedData">testWithMalformedData</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-API_Testing_Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-API_Testing_Suite" class="panel API_Testing_Suite">
+          <div class="suite-API_Testing_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.pratikum.rest.tests.AdvancedAPITests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCreateUserWithEmptyBody">
+                  </a> <!-- testCreateUserWithEmptyBody -->
+                  <span class="method-name">testCreateUserWithEmptyBody</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCreateUserWithFakerJson">
+                  </a> <!-- testCreateUserWithFakerJson -->
+                  <span class="method-name">testCreateUserWithFakerJson</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCreateUserWithHashMap">
+                  </a> <!-- testCreateUserWithHashMap -->
+                  <span class="method-name">testCreateUserWithHashMap</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCreateUserWithInvalidJSON">
+                  </a> <!-- testCreateUserWithInvalidJSON -->
+                  <span class="method-name">testCreateUserWithInvalidJSON</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCreateUserWithNullValues">
+                  </a> <!-- testCreateUserWithNullValues -->
+                  <span class="method-name">testCreateUserWithNullValues</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCreateUserWithVeryLongName">
+                  </a> <!-- testCreateUserWithVeryLongName -->
+                  <span class="method-name">testCreateUserWithVeryLongName</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDataDrivenWithFaker">
+                  </a> <!-- testDataDrivenWithFaker -->
+                  <span class="method-name">testDataDrivenWithFaker</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetPostsForUser">
+                  </a> <!-- testGetPostsForUser -->
+                  <span class="method-name">testGetPostsForUser</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetUserWithInvalidId">
+                  </a> <!-- testGetUserWithInvalidId -->
+                  <span class="method-name">testGetUserWithInvalidId</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMultipleUsersWithDataProvider(4)">
+                  </a> <!-- testMultipleUsersWithDataProvider(4) -->
+                  <span class="method-name">testMultipleUsersWithDataProvider</span>
+                  <span class="parameters">(4)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMultipleUsersWithDataProvider(3)">
+                  </a> <!-- testMultipleUsersWithDataProvider(3) -->
+                  <span class="method-name">testMultipleUsersWithDataProvider</span>
+                  <span class="parameters">(3)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMultipleUsersWithDataProvider(5)">
+                  </a> <!-- testMultipleUsersWithDataProvider(5) -->
+                  <span class="method-name">testMultipleUsersWithDataProvider</span>
+                  <span class="parameters">(5)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMultipleUsersWithDataProvider(1)">
+                  </a> <!-- testMultipleUsersWithDataProvider(1) -->
+                  <span class="method-name">testMultipleUsersWithDataProvider</span>
+                  <span class="parameters">(1)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMultipleUsersWithDataProvider(2)">
+                  </a> <!-- testMultipleUsersWithDataProvider(2) -->
+                  <span class="method-name">testMultipleUsersWithDataProvider</span>
+                  <span class="parameters">(2)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testPaginationFunctionality">
+                  </a> <!-- testPaginationFunctionality -->
+                  <span class="method-name">testPaginationFunctionality</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testResponseHeadersValidation">
+                  </a> <!-- testResponseHeadersValidation -->
+                  <span class="method-name">testResponseHeadersValidation</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testResponseTimePerformance">
+                  </a> <!-- testResponseTimePerformance -->
+                  <span class="method-name">testResponseTimePerformance</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testUpdateUserWithPartialData">
+                  </a> <!-- testUpdateUserWithPartialData -->
+                  <span class="method-name">testUpdateUserWithPartialData</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-API_Testing_Suite-class-passed -->
+          <div class="suite-API_Testing_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.pratikum.rest.tests.AuthenticationTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCreatePostWithoutAuth">
+                  </a> <!-- testCreatePostWithoutAuth -->
+                  <span class="method-name">testCreatePostWithoutAuth</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testFailedAuthenticationMock">
+                  </a> <!-- testFailedAuthenticationMock -->
+                  <span class="method-name">testFailedAuthenticationMock</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testRegResAPIAvailability">
+                  </a> <!-- testRegResAPIAvailability -->
+                  <span class="method-name">testRegResAPIAvailability</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testResponseHeaders">
+                  </a> <!-- testResponseHeaders -->
+                  <span class="method-name">testResponseHeaders</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSuccessfulLoginMock">
+                  </a> <!-- testSuccessfulLoginMock -->
+                  <span class="method-name">testSuccessfulLoginMock</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testWithMalformedData">
+                  </a> <!-- testWithMalformedData -->
+                  <span class="method-name">testWithMalformedData</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-API_Testing_Suite-class-passed -->
+          <div class="suite-API_Testing_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.pratikum.rest.tests.FakerDataTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCreateMultipleUsersWithFaker">
+                  </a> <!-- testCreateMultipleUsersWithFaker -->
+                  <span class="method-name">testCreateMultipleUsersWithFaker</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCreateUserWithAddress">
+                  </a> <!-- testCreateUserWithAddress -->
+                  <span class="method-name">testCreateUserWithAddress</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCreateUserWithCompanyData">
+                  </a> <!-- testCreateUserWithCompanyData -->
+                  <span class="method-name">testCreateUserWithCompanyData</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCreateUserWithFakerData">
+                  </a> <!-- testCreateUserWithFakerData -->
+                  <span class="method-name">testCreateUserWithFakerData</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCreateUserWithIndonesianData">
+                  </a> <!-- testCreateUserWithIndonesianData -->
+                  <span class="method-name">testCreateUserWithIndonesianData</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCreateUserWithValidData">
+                  </a> <!-- testCreateUserWithValidData -->
+                  <span class="method-name">testCreateUserWithValidData</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDataVariationWithFaker">
+                  </a> <!-- testDataVariationWithFaker -->
+                  <span class="method-name">testDataVariationWithFaker</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-API_Testing_Suite-class-passed -->
+          <div class="suite-API_Testing_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.pratikum.rest.tests.UserAPITests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCreateUser">
+                  </a> <!-- testCreateUser -->
+                  <span class="method-name">testCreateUser</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDeleteUser">
+                  </a> <!-- testDeleteUser -->
+                  <span class="method-name">testDeleteUser</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetAllUsers">
+                  </a> <!-- testGetAllUsers -->
+                  <span class="method-name">testGetAllUsers</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetUserById">
+                  </a> <!-- testGetUserById -->
+                  <span class="method-name">testGetUserById</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetUserNotFound">
+                  </a> <!-- testGetUserNotFound -->
+                  <span class="method-name">testGetUserNotFound</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testUpdateUser">
+                  </a> <!-- testUpdateUser -->
+                  <span class="method-name">testUpdateUser</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-API_Testing_Suite-class-passed -->
+        </div> <!-- panel API_Testing_Suite -->
+        <div panel-name="test-xml-API_Testing_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">F:\zidanyb-pratikum-pengujian-perangkat-lunak\REST Assured Testing\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;API Testing Suite&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;User API Tests - JSONPlaceholder&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.pratikum.rest.tests.UserAPITests&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- User API Tests - JSONPlaceholder --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Authentication Tests - ReqRes&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.pratikum.rest.tests.AuthenticationTests&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Authentication Tests - ReqRes --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Advanced API Tests&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.pratikum.rest.tests.AdvancedAPITests&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Advanced API Tests --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Faker Data Tests&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.pratikum.rest.tests.FakerDataTests&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Faker Data Tests --&gt;
+&lt;/suite&gt; &lt;!-- API Testing Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-API_Testing_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for API Testing Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">User API Tests - JSONPlaceholder (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Authentication Tests - ReqRes (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Advanced API Tests (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Faker Data Tests (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-API_Testing_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for API Testing Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-API_Testing_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for API Testing Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_API_Testing_Suite');
+function tableData_API_Testing_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(37);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'testMultipleUsersWithDataProvider')
+data.setCell(0, 2, 'com.pratikum.rest.tests.AdvancedAPITests')
+data.setCell(0, 3, 63729);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testCreateUserWithInvalidJSON')
+data.setCell(1, 2, 'com.pratikum.rest.tests.AdvancedAPITests')
+data.setCell(1, 3, 27398);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testMultipleUsersWithDataProvider')
+data.setCell(2, 2, 'com.pratikum.rest.tests.AdvancedAPITests')
+data.setCell(2, 3, 16578);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'testDataDrivenWithFaker')
+data.setCell(3, 2, 'com.pratikum.rest.tests.AdvancedAPITests')
+data.setCell(3, 3, 4106);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'testCreateUser')
+data.setCell(4, 2, 'com.pratikum.rest.tests.UserAPITests')
+data.setCell(4, 3, 2698);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'testCreateUserWithFakerJson')
+data.setCell(5, 2, 'com.pratikum.rest.tests.AdvancedAPITests')
+data.setCell(5, 3, 2692);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'testResponseHeaders')
+data.setCell(6, 2, 'com.pratikum.rest.tests.AuthenticationTests')
+data.setCell(6, 3, 2249);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'testGetPostsForUser')
+data.setCell(7, 2, 'com.pratikum.rest.tests.AdvancedAPITests')
+data.setCell(7, 3, 2017);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'testDataVariationWithFaker')
+data.setCell(8, 2, 'com.pratikum.rest.tests.FakerDataTests')
+data.setCell(8, 3, 1959);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'testWithMalformedData')
+data.setCell(9, 2, 'com.pratikum.rest.tests.AuthenticationTests')
+data.setCell(9, 3, 1671);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'testUpdateUser')
+data.setCell(10, 2, 'com.pratikum.rest.tests.UserAPITests')
+data.setCell(10, 3, 1652);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'testCreateUserWithHashMap')
+data.setCell(11, 2, 'com.pratikum.rest.tests.AdvancedAPITests')
+data.setCell(11, 3, 1420);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'testCreateMultipleUsersWithFaker')
+data.setCell(12, 2, 'com.pratikum.rest.tests.FakerDataTests')
+data.setCell(12, 3, 1348);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'testDeleteUser')
+data.setCell(13, 2, 'com.pratikum.rest.tests.UserAPITests')
+data.setCell(13, 3, 1253);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'testMultipleUsersWithDataProvider')
+data.setCell(14, 2, 'com.pratikum.rest.tests.AdvancedAPITests')
+data.setCell(14, 3, 1093);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'testPaginationFunctionality')
+data.setCell(15, 2, 'com.pratikum.rest.tests.AdvancedAPITests')
+data.setCell(15, 3, 958);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'testCreateUserWithNullValues')
+data.setCell(16, 2, 'com.pratikum.rest.tests.AdvancedAPITests')
+data.setCell(16, 3, 723);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'testCreateUserWithCompanyData')
+data.setCell(17, 2, 'com.pratikum.rest.tests.FakerDataTests')
+data.setCell(17, 3, 708);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'testCreateUserWithIndonesianData')
+data.setCell(18, 2, 'com.pratikum.rest.tests.FakerDataTests')
+data.setCell(18, 3, 705);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'testCreateUserWithValidData')
+data.setCell(19, 2, 'com.pratikum.rest.tests.FakerDataTests')
+data.setCell(19, 3, 702);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'testUpdateUserWithPartialData')
+data.setCell(20, 2, 'com.pratikum.rest.tests.AdvancedAPITests')
+data.setCell(20, 3, 690);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'testCreateUserWithFakerData')
+data.setCell(21, 2, 'com.pratikum.rest.tests.FakerDataTests')
+data.setCell(21, 3, 686);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'testCreateUserWithAddress')
+data.setCell(22, 2, 'com.pratikum.rest.tests.FakerDataTests')
+data.setCell(22, 3, 681);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'testResponseTimePerformance')
+data.setCell(23, 2, 'com.pratikum.rest.tests.AdvancedAPITests')
+data.setCell(23, 3, 605);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'testMultipleUsersWithDataProvider')
+data.setCell(24, 2, 'com.pratikum.rest.tests.AdvancedAPITests')
+data.setCell(24, 3, 604);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'testResponseHeadersValidation')
+data.setCell(25, 2, 'com.pratikum.rest.tests.AdvancedAPITests')
+data.setCell(25, 3, 562);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'testMultipleUsersWithDataProvider')
+data.setCell(26, 2, 'com.pratikum.rest.tests.AdvancedAPITests')
+data.setCell(26, 3, 370);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'testCreatePostWithoutAuth')
+data.setCell(27, 2, 'com.pratikum.rest.tests.AuthenticationTests')
+data.setCell(27, 3, 365);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'testGetAllUsers')
+data.setCell(28, 2, 'com.pratikum.rest.tests.UserAPITests')
+data.setCell(28, 3, 360);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'testCreateUserWithVeryLongName')
+data.setCell(29, 2, 'com.pratikum.rest.tests.AdvancedAPITests')
+data.setCell(29, 3, 351);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'testCreateUserWithEmptyBody')
+data.setCell(30, 2, 'com.pratikum.rest.tests.AdvancedAPITests')
+data.setCell(30, 3, 349);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'testGetUserById')
+data.setCell(31, 2, 'com.pratikum.rest.tests.UserAPITests')
+data.setCell(31, 3, 303);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'testGetUserWithInvalidId')
+data.setCell(32, 2, 'com.pratikum.rest.tests.AdvancedAPITests')
+data.setCell(32, 3, 291);
+data.setCell(33, 0, 33)
+data.setCell(33, 1, 'testSuccessfulLoginMock')
+data.setCell(33, 2, 'com.pratikum.rest.tests.AuthenticationTests')
+data.setCell(33, 3, 131);
+data.setCell(34, 0, 34)
+data.setCell(34, 1, 'testRegResAPIAvailability')
+data.setCell(34, 2, 'com.pratikum.rest.tests.AuthenticationTests')
+data.setCell(34, 3, 125);
+data.setCell(35, 0, 35)
+data.setCell(35, 1, 'testGetUserNotFound')
+data.setCell(35, 2, 'com.pratikum.rest.tests.UserAPITests')
+data.setCell(35, 3, 115);
+data.setCell(36, 0, 36)
+data.setCell(36, 1, 'testFailedAuthenticationMock')
+data.setCell(36, 2, 'com.pratikum.rest.tests.AuthenticationTests')
+data.setCell(36, 3, 106);
+window.suiteTableData['API_Testing_Suite']= { tableData: data, tableDiv: 'times-div-API_Testing_Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 2 minutes</span>
+              <div id="times-div-API_Testing_Suite">
+              </div> <!-- times-div-API_Testing_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-API_Testing_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for API Testing Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-API_Testing_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-API_Testing_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.pratikum.rest.tests.UserAPITests</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setupMethod</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testCreateUser</span>
+                <span class="method-start">310 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setupMethod</span>
+                <span class="method-start">3012 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testDeleteUser</span>
+                <span class="method-start">3013 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setupMethod</span>
+                <span class="method-start">4268 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testGetAllUsers</span>
+                <span class="method-start">4268 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setupMethod</span>
+                <span class="method-start">4629 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testGetUserById</span>
+                <span class="method-start">4629 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setupMethod</span>
+                <span class="method-start">4933 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testGetUserNotFound</span>
+                <span class="method-start">4933 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setupMethod</span>
+                <span class="method-start">5049 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testUpdateUser</span>
+                <span class="method-start">5049 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.pratikum.rest.tests.AuthenticationTests</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testCreatePostWithoutAuth</span>
+                <span class="method-start">6726 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setupMethod</span>
+                <span class="method-start">6726 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testFailedAuthenticationMock</span>
+                <span class="method-start">7092 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setupMethod</span>
+                <span class="method-start">7092 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testRegResAPIAvailability</span>
+                <span class="method-start">7199 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setupMethod</span>
+                <span class="method-start">7199 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testResponseHeaders</span>
+                <span class="method-start">7325 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setupMethod</span>
+                <span class="method-start">7325 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setupMethod</span>
+                <span class="method-start">9576 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testSuccessfulLoginMock</span>
+                <span class="method-start">9576 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setupMethod</span>
+                <span class="method-start">9708 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testWithMalformedData</span>
+                <span class="method-start">9708 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.pratikum.rest.tests.AdvancedAPITests</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup</span>
+                <span class="method-start">11383 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">setupMethod</span>
+                <span class="method-start">11385 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testCreateUserWithEmptyBody</span>
+                <span class="method-start">11409 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setupMethod</span>
+                <span class="method-start">11758 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testCreateUserWithFakerJson</span>
+                <span class="method-start">11761 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setupMethod</span>
+                <span class="method-start">14454 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testCreateUserWithHashMap</span>
+                <span class="method-start">14457 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setupMethod</span>
+                <span class="method-start">15878 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testCreateUserWithInvalidJSON</span>
+                <span class="method-start">15882 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setupMethod</span>
+                <span class="method-start">43281 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testCreateUserWithNullValues</span>
+                <span class="method-start">43284 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setupMethod</span>
+                <span class="method-start">44008 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testCreateUserWithVeryLongName</span>
+                <span class="method-start">44009 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setupMethod</span>
+                <span class="method-start">44361 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testDataDrivenWithFaker</span>
+                <span class="method-start">44363 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setupMethod</span>
+                <span class="method-start">48470 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testGetPostsForUser</span>
+                <span class="method-start">48471 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setupMethod</span>
+                <span class="method-start">50488 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testGetUserWithInvalidId</span>
+                <span class="method-start">50489 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setupMethod</span>
+                <span class="method-start">50784 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testMultipleUsersWithDataProvider(1)</span>
+                <span class="method-start">50785 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setupMethod</span>
+                <span class="method-start">51879 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testMultipleUsersWithDataProvider(2)</span>
+                <span class="method-start">51880 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setupMethod</span>
+                <span class="method-start">68458 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testMultipleUsersWithDataProvider(3)</span>
+                <span class="method-start">68460 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setupMethod</span>
+                <span class="method-start">68830 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testMultipleUsersWithDataProvider(4)</span>
+                <span class="method-start">68832 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setupMethod</span>
+                <span class="method-start">132562 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testMultipleUsersWithDataProvider(5)</span>
+                <span class="method-start">132563 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setupMethod</span>
+                <span class="method-start">133168 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testPaginationFunctionality</span>
+                <span class="method-start">133169 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setupMethod</span>
+                <span class="method-start">134128 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testResponseHeadersValidation</span>
+                <span class="method-start">134129 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setupMethod</span>
+                <span class="method-start">134692 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testResponseTimePerformance</span>
+                <span class="method-start">134693 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setupMethod</span>
+                <span class="method-start">135299 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testUpdateUserWithPartialData</span>
+                <span class="method-start">135301 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.pratikum.rest.tests.FakerDataTests</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup</span>
+                <span class="method-start">135998 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">setupMethod</span>
+                <span class="method-start">136000 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testCreateMultipleUsersWithFaker</span>
+                <span class="method-start">136001 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setupMethod</span>
+                <span class="method-start">137350 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testCreateUserWithAddress</span>
+                <span class="method-start">137351 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setupMethod</span>
+                <span class="method-start">138032 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testCreateUserWithCompanyData</span>
+                <span class="method-start">138034 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setupMethod</span>
+                <span class="method-start">138742 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testCreateUserWithFakerData</span>
+                <span class="method-start">138743 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setupMethod</span>
+                <span class="method-start">139429 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testCreateUserWithIndonesianData</span>
+                <span class="method-start">139431 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setupMethod</span>
+                <span class="method-start">140137 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testCreateUserWithValidData</span>
+                <span class="method-start">140139 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setupMethod</span>
+                <span class="method-start">140841 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testDataVariationWithFaker</span>
+                <span class="method-start">140843 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

@@ -1,0 +1,8 @@
+com\pratikum\rest\tests\AuthenticationTests.class
+com\pratikum\rest\tests\FakerDataTests.class
+com\pratikum\rest\config\TestConfig.class
+com\pratikum\rest\tests\UserAPITests.class
+com\pratikum\rest\tests\AdvancedAPITests.class
+com\pratikum\rest\runners\TestRunner.class
+com\pratikum\rest\tests\BaseTest.class
+com\pratikum\rest\utils\TestDataGenerator.class

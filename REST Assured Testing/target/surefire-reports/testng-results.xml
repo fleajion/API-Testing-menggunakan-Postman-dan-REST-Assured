@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="37" passed="37" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-12-24T23:51:01 GMT+07:00" name="API Testing Suite" finished-at="2025-12-24T23:53:24 GMT+07:00" duration-ms="142834">
+    <groups>
+    </groups>
+    <test started-at="2025-12-24T23:51:01 GMT+07:00" name="User API Tests - JSONPlaceholder" finished-at="2025-12-24T23:51:08 GMT+07:00" duration-ms="6734">
+      <class name="com.pratikum.rest.tests.UserAPITests">
+        <test-method is-config="true" signature="setupMethod()[pri:0, instance:com.pratikum.rest.tests.UserAPITests@124c278f]" started-at="2025-12-24T23:51:01 GMT+07:00" name="setupMethod" finished-at="2025-12-24T23:51:01 GMT+07:00" duration-ms="308" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method signature="testCreateUser()[pri:0, instance:com.pratikum.rest.tests.UserAPITests@124c278f]" started-at="2025-12-24T23:51:01 GMT+07:00" name="testCreateUser" finished-at="2025-12-24T23:51:04 GMT+07:00" duration-ms="2698" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateUser -->
+        <test-method is-config="true" signature="setupMethod()[pri:0, instance:com.pratikum.rest.tests.UserAPITests@124c278f]" started-at="2025-12-24T23:51:04 GMT+07:00" name="setupMethod" finished-at="2025-12-24T23:51:04 GMT+07:00" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method signature="testDeleteUser()[pri:0, instance:com.pratikum.rest.tests.UserAPITests@124c278f]" started-at="2025-12-24T23:51:04 GMT+07:00" name="testDeleteUser" finished-at="2025-12-24T23:51:05 GMT+07:00" duration-ms="1253" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteUser -->
+        <test-method signature="testGetAllUsers()[pri:0, instance:com.pratikum.rest.tests.UserAPITests@124c278f]" started-at="2025-12-24T23:51:05 GMT+07:00" name="testGetAllUsers" finished-at="2025-12-24T23:51:06 GMT+07:00" duration-ms="360" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetAllUsers -->
+        <test-method is-config="true" signature="setupMethod()[pri:0, instance:com.pratikum.rest.tests.UserAPITests@124c278f]" started-at="2025-12-24T23:51:05 GMT+07:00" name="setupMethod" finished-at="2025-12-24T23:51:05 GMT+07:00" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method signature="testGetUserById()[pri:0, instance:com.pratikum.rest.tests.UserAPITests@124c278f]" started-at="2025-12-24T23:51:06 GMT+07:00" name="testGetUserById" finished-at="2025-12-24T23:51:06 GMT+07:00" duration-ms="303" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetUserById -->
+        <test-method is-config="true" signature="setupMethod()[pri:0, instance:com.pratikum.rest.tests.UserAPITests@124c278f]" started-at="2025-12-24T23:51:06 GMT+07:00" name="setupMethod" finished-at="2025-12-24T23:51:06 GMT+07:00" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method signature="testGetUserNotFound()[pri:0, instance:com.pratikum.rest.tests.UserAPITests@124c278f]" started-at="2025-12-24T23:51:06 GMT+07:00" name="testGetUserNotFound" finished-at="2025-12-24T23:51:06 GMT+07:00" duration-ms="115" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetUserNotFound -->
+        <test-method is-config="true" signature="setupMethod()[pri:0, instance:com.pratikum.rest.tests.UserAPITests@124c278f]" started-at="2025-12-24T23:51:06 GMT+07:00" name="setupMethod" finished-at="2025-12-24T23:51:06 GMT+07:00" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method signature="testUpdateUser()[pri:0, instance:com.pratikum.rest.tests.UserAPITests@124c278f]" started-at="2025-12-24T23:51:06 GMT+07:00" name="testUpdateUser" finished-at="2025-12-24T23:51:08 GMT+07:00" duration-ms="1652" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateUser -->
+        <test-method is-config="true" signature="setupMethod()[pri:0, instance:com.pratikum.rest.tests.UserAPITests@124c278f]" started-at="2025-12-24T23:51:06 GMT+07:00" name="setupMethod" finished-at="2025-12-24T23:51:06 GMT+07:00" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+      </class> <!-- com.pratikum.rest.tests.UserAPITests -->
+    </test> <!-- User API Tests - JSONPlaceholder -->
+    <test started-at="2025-12-24T23:51:08 GMT+07:00" name="Authentication Tests - ReqRes" finished-at="2025-12-24T23:51:12 GMT+07:00" duration-ms="4654">
+      <class name="com.pratikum.rest.tests.AuthenticationTests">
+        <test-method signature="testCreatePostWithoutAuth()[pri:0, instance:com.pratikum.rest.tests.AuthenticationTests@659a969b]" started-at="2025-12-24T23:51:08 GMT+07:00" name="testCreatePostWithoutAuth" finished-at="2025-12-24T23:51:08 GMT+07:00" duration-ms="365" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreatePostWithoutAuth -->
+        <test-method is-config="true" signature="setupMethod()[pri:0, instance:com.pratikum.rest.tests.AuthenticationTests@659a969b]" started-at="2025-12-24T23:51:08 GMT+07:00" name="setupMethod" finished-at="2025-12-24T23:51:08 GMT+07:00" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method signature="testFailedAuthenticationMock()[pri:0, instance:com.pratikum.rest.tests.AuthenticationTests@659a969b]" started-at="2025-12-24T23:51:08 GMT+07:00" name="testFailedAuthenticationMock" finished-at="2025-12-24T23:51:08 GMT+07:00" duration-ms="106" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFailedAuthenticationMock -->
+        <test-method is-config="true" signature="setupMethod()[pri:0, instance:com.pratikum.rest.tests.AuthenticationTests@659a969b]" started-at="2025-12-24T23:51:08 GMT+07:00" name="setupMethod" finished-at="2025-12-24T23:51:08 GMT+07:00" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method signature="testRegResAPIAvailability()[pri:0, instance:com.pratikum.rest.tests.AuthenticationTests@659a969b]" started-at="2025-12-24T23:51:08 GMT+07:00" name="testRegResAPIAvailability" finished-at="2025-12-24T23:51:08 GMT+07:00" duration-ms="125" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegResAPIAvailability -->
+        <test-method is-config="true" signature="setupMethod()[pri:0, instance:com.pratikum.rest.tests.AuthenticationTests@659a969b]" started-at="2025-12-24T23:51:08 GMT+07:00" name="setupMethod" finished-at="2025-12-24T23:51:08 GMT+07:00" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method signature="testResponseHeaders()[pri:0, instance:com.pratikum.rest.tests.AuthenticationTests@659a969b]" started-at="2025-12-24T23:51:08 GMT+07:00" name="testResponseHeaders" finished-at="2025-12-24T23:51:10 GMT+07:00" duration-ms="2249" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testResponseHeaders -->
+        <test-method is-config="true" signature="setupMethod()[pri:0, instance:com.pratikum.rest.tests.AuthenticationTests@659a969b]" started-at="2025-12-24T23:51:08 GMT+07:00" name="setupMethod" finished-at="2025-12-24T23:51:08 GMT+07:00" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method signature="testSuccessfulLoginMock()[pri:0, instance:com.pratikum.rest.tests.AuthenticationTests@659a969b]" started-at="2025-12-24T23:51:10 GMT+07:00" name="testSuccessfulLoginMock" finished-at="2025-12-24T23:51:11 GMT+07:00" duration-ms="131" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSuccessfulLoginMock -->
+        <test-method is-config="true" signature="setupMethod()[pri:0, instance:com.pratikum.rest.tests.AuthenticationTests@659a969b]" started-at="2025-12-24T23:51:10 GMT+07:00" name="setupMethod" finished-at="2025-12-24T23:51:10 GMT+07:00" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method signature="testWithMalformedData()[pri:0, instance:com.pratikum.rest.tests.AuthenticationTests@659a969b]" started-at="2025-12-24T23:51:11 GMT+07:00" name="testWithMalformedData" finished-at="2025-12-24T23:51:12 GMT+07:00" duration-ms="1671" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWithMalformedData -->
+        <test-method is-config="true" signature="setupMethod()[pri:0, instance:com.pratikum.rest.tests.AuthenticationTests@659a969b]" started-at="2025-12-24T23:51:11 GMT+07:00" name="setupMethod" finished-at="2025-12-24T23:51:11 GMT+07:00" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+      </class> <!-- com.pratikum.rest.tests.AuthenticationTests -->
+    </test> <!-- Authentication Tests - ReqRes -->
+    <test started-at="2025-12-24T23:51:12 GMT+07:00" name="Advanced API Tests" finished-at="2025-12-24T23:53:17 GMT+07:00" duration-ms="124609">
+      <class name="com.pratikum.rest.tests.AdvancedAPITests">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.pratikum.rest.tests.AdvancedAPITests@9353778]" started-at="2025-12-24T23:51:12 GMT+07:00" name="setup" finished-at="2025-12-24T23:51:12 GMT+07:00" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setupMethod()[pri:0, instance:com.pratikum.rest.tests.AdvancedAPITests@9353778]" started-at="2025-12-24T23:51:12 GMT+07:00" name="setupMethod" finished-at="2025-12-24T23:51:12 GMT+07:00" duration-ms="24" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method signature="testCreateUserWithEmptyBody()[pri:0, instance:com.pratikum.rest.tests.AdvancedAPITests@9353778]" started-at="2025-12-24T23:51:12 GMT+07:00" name="testCreateUserWithEmptyBody" finished-at="2025-12-24T23:51:13 GMT+07:00" duration-ms="349" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateUserWithEmptyBody -->
+        <test-method is-config="true" signature="setupMethod()[pri:0, instance:com.pratikum.rest.tests.AdvancedAPITests@9353778]" started-at="2025-12-24T23:51:13 GMT+07:00" name="setupMethod" finished-at="2025-12-24T23:51:13 GMT+07:00" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method signature="testCreateUserWithFakerJson()[pri:0, instance:com.pratikum.rest.tests.AdvancedAPITests@9353778]" started-at="2025-12-24T23:51:13 GMT+07:00" name="testCreateUserWithFakerJson" finished-at="2025-12-24T23:51:15 GMT+07:00" duration-ms="2692" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateUserWithFakerJson -->
+        <test-method is-config="true" signature="setupMethod()[pri:0, instance:com.pratikum.rest.tests.AdvancedAPITests@9353778]" started-at="2025-12-24T23:51:15 GMT+07:00" name="setupMethod" finished-at="2025-12-24T23:51:15 GMT+07:00" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method signature="testCreateUserWithHashMap()[pri:0, instance:com.pratikum.rest.tests.AdvancedAPITests@9353778]" started-at="2025-12-24T23:51:15 GMT+07:00" name="testCreateUserWithHashMap" finished-at="2025-12-24T23:51:17 GMT+07:00" duration-ms="1420" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateUserWithHashMap -->
+        <test-method is-config="true" signature="setupMethod()[pri:0, instance:com.pratikum.rest.tests.AdvancedAPITests@9353778]" started-at="2025-12-24T23:51:17 GMT+07:00" name="setupMethod" finished-at="2025-12-24T23:51:17 GMT+07:00" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method signature="testCreateUserWithInvalidJSON()[pri:0, instance:com.pratikum.rest.tests.AdvancedAPITests@9353778]" started-at="2025-12-24T23:51:17 GMT+07:00" name="testCreateUserWithInvalidJSON" finished-at="2025-12-24T23:51:44 GMT+07:00" duration-ms="27398" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateUserWithInvalidJSON -->
+        <test-method is-config="true" signature="setupMethod()[pri:0, instance:com.pratikum.rest.tests.AdvancedAPITests@9353778]" started-at="2025-12-24T23:51:44 GMT+07:00" name="setupMethod" finished-at="2025-12-24T23:51:44 GMT+07:00" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method signature="testCreateUserWithNullValues()[pri:0, instance:com.pratikum.rest.tests.AdvancedAPITests@9353778]" started-at="2025-12-24T23:51:44 GMT+07:00" name="testCreateUserWithNullValues" finished-at="2025-12-24T23:51:45 GMT+07:00" duration-ms="723" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateUserWithNullValues -->
+        <test-method is-config="true" signature="setupMethod()[pri:0, instance:com.pratikum.rest.tests.AdvancedAPITests@9353778]" started-at="2025-12-24T23:51:45 GMT+07:00" name="setupMethod" finished-at="2025-12-24T23:51:45 GMT+07:00" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method signature="testCreateUserWithVeryLongName()[pri:0, instance:com.pratikum.rest.tests.AdvancedAPITests@9353778]" started-at="2025-12-24T23:51:45 GMT+07:00" name="testCreateUserWithVeryLongName" finished-at="2025-12-24T23:51:45 GMT+07:00" duration-ms="351" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateUserWithVeryLongName -->
+        <test-method is-config="true" signature="setupMethod()[pri:0, instance:com.pratikum.rest.tests.AdvancedAPITests@9353778]" started-at="2025-12-24T23:51:45 GMT+07:00" name="setupMethod" finished-at="2025-12-24T23:51:45 GMT+07:00" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method signature="testDataDrivenWithFaker()[pri:0, instance:com.pratikum.rest.tests.AdvancedAPITests@9353778]" started-at="2025-12-24T23:51:45 GMT+07:00" name="testDataDrivenWithFaker" finished-at="2025-12-24T23:51:49 GMT+07:00" duration-ms="4106" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDataDrivenWithFaker -->
+        <test-method is-config="true" signature="setupMethod()[pri:0, instance:com.pratikum.rest.tests.AdvancedAPITests@9353778]" started-at="2025-12-24T23:51:49 GMT+07:00" name="setupMethod" finished-at="2025-12-24T23:51:49 GMT+07:00" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method signature="testGetPostsForUser()[pri:0, instance:com.pratikum.rest.tests.AdvancedAPITests@9353778]" started-at="2025-12-24T23:51:49 GMT+07:00" name="testGetPostsForUser" finished-at="2025-12-24T23:51:51 GMT+07:00" duration-ms="2017" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetPostsForUser -->
+        <test-method is-config="true" signature="setupMethod()[pri:0, instance:com.pratikum.rest.tests.AdvancedAPITests@9353778]" started-at="2025-12-24T23:51:51 GMT+07:00" name="setupMethod" finished-at="2025-12-24T23:51:51 GMT+07:00" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method signature="testGetUserWithInvalidId()[pri:0, instance:com.pratikum.rest.tests.AdvancedAPITests@9353778]" started-at="2025-12-24T23:51:51 GMT+07:00" name="testGetUserWithInvalidId" finished-at="2025-12-24T23:51:52 GMT+07:00" duration-ms="291" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetUserWithInvalidId -->
+        <test-method is-config="true" signature="setupMethod()[pri:0, instance:com.pratikum.rest.tests.AdvancedAPITests@9353778]" started-at="2025-12-24T23:51:52 GMT+07:00" name="setupMethod" finished-at="2025-12-24T23:51:52 GMT+07:00" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method signature="testMultipleUsersWithDataProvider(int)[pri:0, instance:com.pratikum.rest.tests.AdvancedAPITests@9353778]" started-at="2025-12-24T23:51:52 GMT+07:00" name="testMultipleUsersWithDataProvider" data-provider="validUserIds" finished-at="2025-12-24T23:51:53 GMT+07:00" duration-ms="1093" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMultipleUsersWithDataProvider -->
+        <test-method is-config="true" signature="setupMethod()[pri:0, instance:com.pratikum.rest.tests.AdvancedAPITests@9353778]" started-at="2025-12-24T23:51:53 GMT+07:00" name="setupMethod" finished-at="2025-12-24T23:51:53 GMT+07:00" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method signature="testMultipleUsersWithDataProvider(int)[pri:0, instance:com.pratikum.rest.tests.AdvancedAPITests@9353778]" started-at="2025-12-24T23:51:53 GMT+07:00" name="testMultipleUsersWithDataProvider" data-provider="validUserIds" finished-at="2025-12-24T23:52:09 GMT+07:00" duration-ms="16578" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMultipleUsersWithDataProvider -->
+        <test-method is-config="true" signature="setupMethod()[pri:0, instance:com.pratikum.rest.tests.AdvancedAPITests@9353778]" started-at="2025-12-24T23:52:09 GMT+07:00" name="setupMethod" finished-at="2025-12-24T23:52:09 GMT+07:00" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method signature="testMultipleUsersWithDataProvider(int)[pri:0, instance:com.pratikum.rest.tests.AdvancedAPITests@9353778]" started-at="2025-12-24T23:52:09 GMT+07:00" name="testMultipleUsersWithDataProvider" data-provider="validUserIds" finished-at="2025-12-24T23:52:10 GMT+07:00" duration-ms="370" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMultipleUsersWithDataProvider -->
+        <test-method is-config="true" signature="setupMethod()[pri:0, instance:com.pratikum.rest.tests.AdvancedAPITests@9353778]" started-at="2025-12-24T23:52:10 GMT+07:00" name="setupMethod" finished-at="2025-12-24T23:52:10 GMT+07:00" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method signature="testMultipleUsersWithDataProvider(int)[pri:0, instance:com.pratikum.rest.tests.AdvancedAPITests@9353778]" started-at="2025-12-24T23:52:10 GMT+07:00" name="testMultipleUsersWithDataProvider" data-provider="validUserIds" finished-at="2025-12-24T23:53:13 GMT+07:00" duration-ms="63729" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMultipleUsersWithDataProvider -->
+        <test-method is-config="true" signature="setupMethod()[pri:0, instance:com.pratikum.rest.tests.AdvancedAPITests@9353778]" started-at="2025-12-24T23:53:13 GMT+07:00" name="setupMethod" finished-at="2025-12-24T23:53:13 GMT+07:00" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method signature="testMultipleUsersWithDataProvider(int)[pri:0, instance:com.pratikum.rest.tests.AdvancedAPITests@9353778]" started-at="2025-12-24T23:53:13 GMT+07:00" name="testMultipleUsersWithDataProvider" data-provider="validUserIds" finished-at="2025-12-24T23:53:14 GMT+07:00" duration-ms="604" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMultipleUsersWithDataProvider -->
+        <test-method is-config="true" signature="setupMethod()[pri:0, instance:com.pratikum.rest.tests.AdvancedAPITests@9353778]" started-at="2025-12-24T23:53:14 GMT+07:00" name="setupMethod" finished-at="2025-12-24T23:53:14 GMT+07:00" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method signature="testPaginationFunctionality()[pri:0, instance:com.pratikum.rest.tests.AdvancedAPITests@9353778]" started-at="2025-12-24T23:53:14 GMT+07:00" name="testPaginationFunctionality" finished-at="2025-12-24T23:53:15 GMT+07:00" duration-ms="958" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPaginationFunctionality -->
+        <test-method is-config="true" signature="setupMethod()[pri:0, instance:com.pratikum.rest.tests.AdvancedAPITests@9353778]" started-at="2025-12-24T23:53:15 GMT+07:00" name="setupMethod" finished-at="2025-12-24T23:53:15 GMT+07:00" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method signature="testResponseHeadersValidation()[pri:0, instance:com.pratikum.rest.tests.AdvancedAPITests@9353778]" started-at="2025-12-24T23:53:15 GMT+07:00" name="testResponseHeadersValidation" finished-at="2025-12-24T23:53:16 GMT+07:00" duration-ms="562" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testResponseHeadersValidation -->
+        <test-method is-config="true" signature="setupMethod()[pri:0, instance:com.pratikum.rest.tests.AdvancedAPITests@9353778]" started-at="2025-12-24T23:53:16 GMT+07:00" name="setupMethod" finished-at="2025-12-24T23:53:16 GMT+07:00" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method signature="testResponseTimePerformance()[pri:0, instance:com.pratikum.rest.tests.AdvancedAPITests@9353778]" started-at="2025-12-24T23:53:16 GMT+07:00" name="testResponseTimePerformance" finished-at="2025-12-24T23:53:16 GMT+07:00" duration-ms="605" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testResponseTimePerformance -->
+        <test-method is-config="true" signature="setupMethod()[pri:0, instance:com.pratikum.rest.tests.AdvancedAPITests@9353778]" started-at="2025-12-24T23:53:16 GMT+07:00" name="setupMethod" finished-at="2025-12-24T23:53:16 GMT+07:00" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method signature="testUpdateUserWithPartialData()[pri:0, instance:com.pratikum.rest.tests.AdvancedAPITests@9353778]" started-at="2025-12-24T23:53:16 GMT+07:00" name="testUpdateUserWithPartialData" finished-at="2025-12-24T23:53:17 GMT+07:00" duration-ms="690" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateUserWithPartialData -->
+      </class> <!-- com.pratikum.rest.tests.AdvancedAPITests -->
+    </test> <!-- Advanced API Tests -->
+    <test started-at="2025-12-24T23:53:17 GMT+07:00" name="Faker Data Tests" finished-at="2025-12-24T23:53:24 GMT+07:00" duration-ms="6806">
+      <class name="com.pratikum.rest.tests.FakerDataTests">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.pratikum.rest.tests.FakerDataTests@1139b2f3]" started-at="2025-12-24T23:53:17 GMT+07:00" name="setup" finished-at="2025-12-24T23:53:17 GMT+07:00" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setupMethod()[pri:0, instance:com.pratikum.rest.tests.FakerDataTests@1139b2f3]" started-at="2025-12-24T23:53:17 GMT+07:00" name="setupMethod" finished-at="2025-12-24T23:53:17 GMT+07:00" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method signature="testCreateMultipleUsersWithFaker()[pri:0, instance:com.pratikum.rest.tests.FakerDataTests@1139b2f3]" started-at="2025-12-24T23:53:17 GMT+07:00" name="testCreateMultipleUsersWithFaker" finished-at="2025-12-24T23:53:18 GMT+07:00" duration-ms="1348" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateMultipleUsersWithFaker -->
+        <test-method is-config="true" signature="setupMethod()[pri:0, instance:com.pratikum.rest.tests.FakerDataTests@1139b2f3]" started-at="2025-12-24T23:53:18 GMT+07:00" name="setupMethod" finished-at="2025-12-24T23:53:18 GMT+07:00" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method signature="testCreateUserWithAddress()[pri:0, instance:com.pratikum.rest.tests.FakerDataTests@1139b2f3]" started-at="2025-12-24T23:53:18 GMT+07:00" name="testCreateUserWithAddress" finished-at="2025-12-24T23:53:19 GMT+07:00" duration-ms="681" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateUserWithAddress -->
+        <test-method is-config="true" signature="setupMethod()[pri:0, instance:com.pratikum.rest.tests.FakerDataTests@1139b2f3]" started-at="2025-12-24T23:53:19 GMT+07:00" name="setupMethod" finished-at="2025-12-24T23:53:19 GMT+07:00" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method signature="testCreateUserWithCompanyData()[pri:0, instance:com.pratikum.rest.tests.FakerDataTests@1139b2f3]" started-at="2025-12-24T23:53:19 GMT+07:00" name="testCreateUserWithCompanyData" finished-at="2025-12-24T23:53:20 GMT+07:00" duration-ms="708" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateUserWithCompanyData -->
+        <test-method is-config="true" signature="setupMethod()[pri:0, instance:com.pratikum.rest.tests.FakerDataTests@1139b2f3]" started-at="2025-12-24T23:53:20 GMT+07:00" name="setupMethod" finished-at="2025-12-24T23:53:20 GMT+07:00" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method signature="testCreateUserWithFakerData()[pri:0, instance:com.pratikum.rest.tests.FakerDataTests@1139b2f3]" started-at="2025-12-24T23:53:20 GMT+07:00" name="testCreateUserWithFakerData" finished-at="2025-12-24T23:53:20 GMT+07:00" duration-ms="686" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateUserWithFakerData -->
+        <test-method is-config="true" signature="setupMethod()[pri:0, instance:com.pratikum.rest.tests.FakerDataTests@1139b2f3]" started-at="2025-12-24T23:53:20 GMT+07:00" name="setupMethod" finished-at="2025-12-24T23:53:20 GMT+07:00" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method signature="testCreateUserWithIndonesianData()[pri:0, instance:com.pratikum.rest.tests.FakerDataTests@1139b2f3]" started-at="2025-12-24T23:53:20 GMT+07:00" name="testCreateUserWithIndonesianData" finished-at="2025-12-24T23:53:21 GMT+07:00" duration-ms="705" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateUserWithIndonesianData -->
+        <test-method is-config="true" signature="setupMethod()[pri:0, instance:com.pratikum.rest.tests.FakerDataTests@1139b2f3]" started-at="2025-12-24T23:53:21 GMT+07:00" name="setupMethod" finished-at="2025-12-24T23:53:21 GMT+07:00" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method signature="testCreateUserWithValidData()[pri:0, instance:com.pratikum.rest.tests.FakerDataTests@1139b2f3]" started-at="2025-12-24T23:53:21 GMT+07:00" name="testCreateUserWithValidData" finished-at="2025-12-24T23:53:22 GMT+07:00" duration-ms="702" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateUserWithValidData -->
+        <test-method is-config="true" signature="setupMethod()[pri:0, instance:com.pratikum.rest.tests.FakerDataTests@1139b2f3]" started-at="2025-12-24T23:53:22 GMT+07:00" name="setupMethod" finished-at="2025-12-24T23:53:22 GMT+07:00" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method signature="testDataVariationWithFaker()[pri:0, instance:com.pratikum.rest.tests.FakerDataTests@1139b2f3]" started-at="2025-12-24T23:53:22 GMT+07:00" name="testDataVariationWithFaker" finished-at="2025-12-24T23:53:24 GMT+07:00" duration-ms="1959" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDataVariationWithFaker -->
+      </class> <!-- com.pratikum.rest.tests.FakerDataTests -->
+    </test> <!-- Faker Data Tests -->
+  </suite> <!-- API Testing Suite -->
+</testng-results>
